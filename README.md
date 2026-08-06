@@ -1,2 +1,2 @@
 # TIL
-github 직접변경 및 pull 실험
+git pull실험 완료 및 push 시험
