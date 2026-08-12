@@ -1,21 +1,19 @@
-📚 Data Science & AI Bootcamp — TIL & Devlog
-9.5개월간의 데이터 사이언스 & AI 서비스 개발 과정을 기록하는 개발 일지(Devlog) 저장소입니다.
-단순한 강의 내용 복사가 아닌, 직면한 문제(Problem), 직접 검증한 코드(Experiment), 해결 과정(Solution) 중심의 인사이트를 기록합니다.
-🛠️ Main Tech Stack & Tools
-![alt text](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white)
+# 📚 Data Science & AI Bootcamp — TIL & Devlog
 
-![alt text](https://img.shields.io/badge/Package_Manager-uv-DE5B43?style=flat-square&logo=rust&logoColor=white)
+> 9.5개월간의 데이터 사이언스 & AI 서비스 개발 과정을 기록하는 개발 일지(Devlog) 저장소입니다.  
+> 단순한 강의 내용 복사가 아닌, **직면한 문제(Problem), 직접 검증한 코드(Experiment), 해결 과정(Solution)** 중심의 인사이트를 기록합니다.
 
-![alt text](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+---
 
-![alt text](https://img.shields.io/badge/VCS-Git-F05032?style=flat-square&logo=git&logoColor=white)
+## 🛠️ Main Tech Stack & Tools
 
-![alt text](https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white) ![uv](https://img.shields.io/badge/Package_Manager-uv-DE5B43?style=flat-square&logo=rust&logoColor=white) ![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![Git](https://img.shields.io/badge/VCS-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-![alt text](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-📂 저장소 구조 (Repository Architecture)
-code
-Text
+---
+
+## 📂 저장소 구조 (Repository Architecture)
+
+```text
 .
 ├── README.md                 # TIL 저장소 안내 및 목차
 ├── template.md               # AI 기반 Devlog 작성 템플릿
@@ -31,3 +29,11 @@ Text
 지속 가능한 성장 (Consistency): 커리큘럼이 진행됨에 따라 단단해지는 소프트웨어 아키텍처 및 데이터 엔지니어링 역량을 기록합니다.
 🤖 AI Devlog Generator
 이 저장소는 template.md에 정의된 프롬프트를 기반으로 일일 학습 및 트러블슈팅 내역을 정밀한 Devlog형 마크다운 문서로 변환하여 관리합니다.
+---
+
+### 🚀 저장 후 명령 실행
+
+```bash
+git add README.md
+git commit -m "style: 마크다운 줄바꿈 및 여백 보정"
+git push origin main
