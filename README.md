@@ -34,7 +34,7 @@
 | **2026-08-12** | Python | 600줄 퀀트 백테스팅 엔진 7모듈 리팩토링, `uv` 의존성 도입, 한글 인코딩(`utf-8-sig`) 해결 | [📄 보기](./2026-08/2026-08-12.md) |
 | **2026-08-13** | Python / OOP | 예외 처리(`try-except`), 비주얼 디버거(`Debug Cell`), 클래스(`OOP`), 퀀트 엔진 디버깅 및 한글 종목명 매핑 | [📄 보기](./2026-08/2026-08-13.md) |
 | **2026-08-14** | Python / OOP | OOP 매직 메서드(`__str__`), `iloc[0]` 파이프라인 인덱싱, 조건식 단락 평가 최적화, Git Detached HEAD 복구 | [📄 보기](./2026-08/2026-08-14.md) |
-
+| **2026-08-18** | Python / SQL | 파일 I/O(JSON/CSV), Matplotlib 한글화 최적화, .venv 경로 복구, RDBMS 구조 및 600MB DB 샘플링 | [📄 보기](/Peter-jackson12/TIL/blob/main/2026-08/2026-08-18.md) |
 ---
 
 ## 💡 학습 및 작성 원칙 (Writing Principles)
