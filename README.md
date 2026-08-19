@@ -8,7 +8,17 @@
 
 ## 🛠️ Main Tech Stack & Tools
 
-![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white) ![uv](https://img.shields.io/badge/Package_Manager-uv-DE5B43?style=flat-square&logo=rust&logoColor=white) ![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![Git](https://img.shields.io/badge/VCS-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white) 
+![uv](https://img.shields.io/badge/Package_Manager-uv-DE5B43?style=flat-square&logo=rust&logoColor=white) 
+![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) 
+![Git](https://img.shields.io/badge/VCS-Git-F05032?style=flat-square&logo=git&logoColor=white) 
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![DBeaver](https://img.shields.io/badge/Tool-DBeaver-372923?style=flat-square&logo=dbeaver&logoColor=white)
+![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) 
+![Streamlit](https://img.shields.io/badge/App-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Viz-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Ollama](https://img.shields.io/badge/Local_AI-Ollama-black?style=flat-square&logo=ollama&logoColor=white)
 
 ---
 
@@ -22,7 +32,9 @@
 └── 2026-08/                  # 2026년 8월 학습 기록
     ├── 2026-08-12.md         # 변수 스코프, uv 패키지 관리, 퀀트 엔진 모듈화
     ├── 2026-08-13.md         # 예외 처리, 비주얼 디버거, OOP 클래스, 퀀트 엔진 디버깅
-    └── 2026-08-14.md         # OOP 매직 메서드(__str__), iloc[0] 파이프라인 인덱싱, 연산 최적화
+    ├── 2026-08-14.md         # OOP 매직 메서드(__str__), iloc[0] 파이프라인 인덱싱, 연산 최적화
+    ├── 2026-08-18.md         # 파일 I/O(JSON/CSV), Matplotlib 한글화, RDBMS 구조 및 600MB DB 샘플링
+    └── 2026-08-19.md         # RDBMS 정규화·ERD, PostgreSQL/DBeaver 파이프라인, 퀀트 대시보드 연동
 ```
 
 ---
@@ -34,14 +46,16 @@
 | **2026-08-12** | Python | 600줄 퀀트 백테스팅 엔진 7모듈 리팩토링, `uv` 의존성 도입, 한글 인코딩(`utf-8-sig`) 해결 | [📄 보기](./2026-08/2026-08-12.md) |
 | **2026-08-13** | Python / OOP | 예외 처리(`try-except`), 비주얼 디버거(`Debug Cell`), 클래스(`OOP`), 퀀트 엔진 디버깅 및 한글 종목명 매핑 | [📄 보기](./2026-08/2026-08-13.md) |
 | **2026-08-14** | Python / OOP | OOP 매직 메서드(`__str__`), `iloc[0]` 파이프라인 인덱싱, 조건식 단락 평가 최적화, Git Detached HEAD 복구 | [📄 보기](./2026-08/2026-08-14.md) |
-| **2026-08-18** | Python / SQL | 파일 I/O(JSON/CSV), Matplotlib 한글화 최적화, .venv 경로 복구, RDBMS 구조 및 600MB DB 샘플링 | [📄 보기](/Peter-jackson12/TIL/blob/main/2026-08/2026-08-18.md) |
+| **2026-08-18** | Python / SQL | 파일 I/O(JSON/CSV), Matplotlib 한글화 최적화, `.venv` 경로 복구, RDBMS 구조 및 600MB DB 샘플링 파이프라인 | [📄 보기](./2026-08/2026-08-18.md) |
+| **2026-08-19** | SQL / Quant | RDBMS 데이터 무결성·정규화(1NF~3NF)·ERD, PostgreSQL/DBeaver 데이터 파이프라인, Streamlit 퀀트 대시보드 및 로컬 Ollama AI 연동 | [📄 보기](./2026-08/2026-08-19.md) |
+
 ---
 
 ## 💡 학습 및 작성 원칙 (Writing Principles)
 
-1. **문제 해결 중심 (Problem-Solving):** 코드를 짜며 겪은 에러, 버그, 의구심을 기록하고 이를 직접 주피터 노트북에서 검증한 결과를 적습니다.
+1. **문제 해결 중심 (Problem-Solving):** 코드를 짜며 겪은 에러, 버그, 의구심을 기록하고 이를 직접 주피터 노트북과 SQL 엔진에서 검증한 결과를 적습니다.
 2. **현대적 개발 환경 준수:** 모든 프로젝트 환경은 Rust 기반 `uv` 패키지 매니저(`pyproject.toml`, `uv.lock`)를 적극 도입하여 재현성을 보장합니다.
-3. **지속 가능한 성장 (Consistency):** 커리큘럼이 진행됨에 따라 단단해지는 소프트웨어 아키텍처 및 데이터 엔지니어링 역량을 기록합니다.
+3. **지속 가능한 성장 (Consistency):** 커리큘럼이 진행됨에 따라 단단해지는 소프트웨어 아키텍처, 데이터 엔지니어링, 퀀트 시스템 역량을 기록합니다.
 
 ---
 
