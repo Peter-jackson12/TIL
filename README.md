@@ -1,3 +1,6 @@
+
+---
+
 ```markdown
 # 📚 Data Science & AI Bootcamp — TIL & Devlog
 
@@ -34,7 +37,8 @@
     ├── 2026-08-13.md         # 예외 처리, 비주얼 디버거, OOP 클래스, 퀀트 엔진 디버깅
     ├── 2026-08-14.md         # OOP 매직 메서드(__str__), iloc[0] 파이프라인 인덱싱, 연산 최적화
     ├── 2026-08-18.md         # 파일 I/O(JSON/CSV), Matplotlib 한글화, RDBMS 구조 및 600MB DB 샘플링
-    └── 2026-08-19.md         # RDBMS 정규화·ERD, PostgreSQL/DBeaver 파이프라인, 퀀트 대시보드 연동
+    ├── 2026-08-19.md         # RDBMS 정규화·ERD, PostgreSQL/DBeaver 파이프라인, 퀀트 대시보드 연동
+    └── 2026-08-20.md         # SQL 쿼리 라이프사이클(WHERE/HAVING/JOIN), 퀀트 올인원 저장소 통합(Phase 2)
 ```
 
 ---
@@ -48,6 +52,7 @@
 | **2026-08-14** | Python / OOP | OOP 매직 메서드(`__str__`), `iloc[0]` 파이프라인 인덱싱, 조건식 단락 평가 최적화, Git Detached HEAD 복구 | [📄 보기](./2026-08/2026-08-14.md) |
 | **2026-08-18** | Python / SQL | 파일 I/O(JSON/CSV), Matplotlib 한글화 최적화, `.venv` 경로 복구, RDBMS 구조 및 600MB DB 샘플링 파이프라인 | [📄 보기](./2026-08/2026-08-18.md) |
 | **2026-08-19** | SQL / Quant | RDBMS 데이터 무결성·정규화(1NF~3NF)·ERD, PostgreSQL/DBeaver 데이터 파이프라인, Streamlit 퀀트 대시보드 및 로컬 Ollama AI 연동 | [📄 보기](./2026-08/2026-08-19.md) |
+| **2026-08-20** | SQL / Quant | SQL 논리적 실행 순서 및 `WHERE` vs `HAVING` 서브쿼리 등가성 검증, `UNION`/`JOIN` 참조 무결성 분석, Stock 퀀트 플랫폼 모노레포 물리 통합(Phase 2) 및 패키지 네임스페이스 트러블슈팅 | [📄 보기](./2026-08/2026-08-20.md) |
 
 ---
 
