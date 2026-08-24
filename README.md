@@ -53,7 +53,7 @@
 | **2026-08-18** | Python / SQL | 파일 I/O(JSON/CSV), Matplotlib 한글화 최적화, `.venv` 경로 복구, RDBMS 구조 및 600MB DB 샘플링 파이프라인 | [📄 보기](./2026-08/2026-08-18.md) |
 | **2026-08-19** | SQL / Quant | RDBMS 데이터 무결성·정규화(1NF~3NF)·ERD, PostgreSQL/DBeaver 데이터 파이프라인, Streamlit 퀀트 대시보드 및 로컬 Ollama AI 연동 | [📄 보기](./2026-08/2026-08-19.md) |
 | **2026-08-20** | SQL / Quant | SQL 논리적 실행 순서 및 `WHERE` vs `HAVING` 서브쿼리 등가성 검증, `UNION`/`JOIN` 참조 무결성 분석, Stock 퀀트 플랫폼 모노레포 물리 통합(Phase 2) 및 패키지 네임스페이스 트러블슈팅 | [📄 보기](./2026-08/2026-08-20.md) |
-
+| **2026-08-24** | Python / SQL | Pandas 내부 메커니즘(`iloc`/`loc`, Boolean Indexing), 순수 Python OOP 파이프라인(`CarSale` 상속/오버라이딩), SQL 서브쿼리 3대 패턴, `uv` 한글 패키지명 트러블슈팅 | [📄 보기](./2026-08/2026-08-24.md) |
 ---
 
 ## 💡 학습 및 작성 원칙 (Writing Principles)
