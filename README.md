@@ -1,11 +1,7 @@
-
----
-
-```markdown
 # 📚 Data Science & AI Bootcamp — TIL & Devlog
 
 > 9.5개월간의 데이터 사이언스 & AI 서비스 개발 과정을 기록하는 개발 일지(Devlog) 저장소입니다.  
-> 단순한 강의 내용 복사가 아닌, **직면한 문제(Problem), 직접 검증한 코드(Experiment), 해결 과정(Solution)** 중심의 인사이트를 기록합니다.
+> 단순한 강의 내용 복사가 아닌, **직면한 문제(Problem), 직접 검증한 코드(Experiment), 해결 과정(Solution)** 중심의 실전 인사이트를 기록합니다.
 
 ---
 
@@ -19,6 +15,8 @@
 ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![DBeaver](https://img.shields.io/badge/Tool-DBeaver-372923?style=flat-square&logo=dbeaver&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) 
+![SciPy](https://img.shields.io/badge/Stats-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+![Scikit_Learn](https://img.shields.io/badge/ML-Scikit_Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/App-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Viz-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Local_AI-Ollama-black?style=flat-square&logo=ollama&logoColor=white)
@@ -29,7 +27,7 @@
 
 ```text
 .
-├── README.md                 # TIL 저장소 안내 및 목차
+├── README.md                 # TIL 저장소 안내 및 전체 목차
 ├── template.md               # AI 기반 Devlog 작성 템플릿
 ├── create_til.py             # 일일 TIL 자동 생성 스크립트
 └── 2026-08/                  # 2026년 8월 학습 기록
@@ -38,7 +36,12 @@
     ├── 2026-08-14.md         # OOP 매직 메서드(__str__), iloc[0] 파이프라인 인덱싱, 연산 최적화
     ├── 2026-08-18.md         # 파일 I/O(JSON/CSV), Matplotlib 한글화, RDBMS 구조 및 600MB DB 샘플링
     ├── 2026-08-19.md         # RDBMS 정규화·ERD, PostgreSQL/DBeaver 파이프라인, 퀀트 대시보드 연동
-    └── 2026-08-20.md         # SQL 쿼리 라이프사이클(WHERE/HAVING/JOIN), 퀀트 올인원 저장소 통합(Phase 2)
+    ├── 2026-08-20.md         # SQL 쿼리 라이프사이클(WHERE/HAVING/JOIN), 퀀트 올인원 저장소 통합(Phase 2)
+    ├── 2026-08-24.md         # Pandas 내부 메커니즘(iloc/loc), 순수 Python OOP 파이프라인, SQL 서브쿼리
+    ├── 2026-08-25.md         # Pandas 다중 집계(agg/pivot), rrule 시계열, EDA 이상치 분석, LEFT JOIN 무결성
+    ├── 2026-08-27.md         # Matplotlib/Seaborn OOP, AI 에이전트(Cline/MCP/Ollama), KRX 70만 행 이상치 탐지
+    ├── 2026-08-28.md         # KRX 전처리 파이프라인, Day & Night Anomaly(Overnight Alpha), 자유도·베이즈 정리
+    └── 2026-08-31.md         # 통계학 수리 증명(이항분포 분산·자유도), IEEE 754 극단값 SF, PostgreSQL 스키마
 ```
 
 ---
@@ -52,9 +55,13 @@
 | **2026-08-14** | Python / OOP | OOP 매직 메서드(`__str__`), `iloc[0]` 파이프라인 인덱싱, 조건식 단락 평가 최적화, Git Detached HEAD 복구 | [📄 보기](./2026-08/2026-08-14.md) |
 | **2026-08-18** | Python / SQL | 파일 I/O(JSON/CSV), Matplotlib 한글화 최적화, `.venv` 경로 복구, RDBMS 구조 및 600MB DB 샘플링 파이프라인 | [📄 보기](./2026-08/2026-08-18.md) |
 | **2026-08-19** | SQL / Quant | RDBMS 데이터 무결성·정규화(1NF~3NF)·ERD, PostgreSQL/DBeaver 데이터 파이프라인, Streamlit 퀀트 대시보드 및 로컬 Ollama AI 연동 | [📄 보기](./2026-08/2026-08-19.md) |
-| **2026-08-20** | SQL / Quant | SQL 논리적 실행 순서 및 `WHERE` vs `HAVING` 서브쿼리 등가성 검증, `UNION`/`JOIN` 참조 무결성 분석, Stock 퀀트 플랫폼 모노레포 물리 통합(Phase 2) 및 패키지 네임스페이스 트러블슈팅 | [📄 보기](./2026-08/2026-08-20.md) |
+| **2026-08-20** | SQL / Quant | SQL 논리적 실행 순서 및 `WHERE` vs `HAVING` 서브쿼리 등가성 검증, `UNION`/`JOIN` 참조 무결성 분석, Stock 퀀트 플랫폼 모노레포 물리 통합(Phase 2) | [📄 보기](./2026-08/2026-08-20.md) |
 | **2026-08-24** | Python / SQL | Pandas 내부 메커니즘(`iloc`/`loc`, Boolean Indexing), 순수 Python OOP 파이프라인(`CarSale` 상속/오버라이딩), SQL 서브쿼리 3대 패턴, `uv` 한글 패키지명 트러블슈팅 | [📄 보기](./2026-08/2026-08-24.md) |
 | **2026-08-25** | Pandas / EDA / SQL | Pandas 다중 집계(`agg`/`pivot_table`), `str.split`/`rrule` 시계열 생성, Git 스냅샷 원리, EDA 이상치(IQR vs 도메인) 분석, SQL `LEFT JOIN` 무결성 검증 | [📄 보기](./2026-08/2026-08-25.md) |
+| **2026-08-27** | Python / Viz / AI | Python 3.14 시각화(Matplotlib/Seaborn OOP), AI 에이전트(Cline/MCP/Gemini 429 쿨다운), KRX 주식 70만 행 도메인 무결성 및 1:N 명칭 노이즈 탐지 엔진 | [📄 보기](./2026-08/2026-08-27.md) |
+| **2026-08-28** | Quant / Stats | KRX 70만 행 전처리 파이프라인 완성, Day & Night Anomaly(Overnight Alpha) 실증, 통계학 자유도($df$)와 베이즈 정리의 본질, Git 100MB 파일 제한 복구 | [📄 보기](./2026-08/2026-08-28.md) |
+| **2026-08-31** | Stats / SQL / DevOps | 통계학 수리 증명(이항분포 분산 $np(1-p)$·자유도 $n-1$ 베셀 보정), IEEE 754 부동소수점 극단값 $\text{SF}$ 연산, Python `set` 해시 비결정론, PostgreSQL 스키마 파이프라인 | [📄 보기](./2026-08/2026-08-31.md) |
+
 ---
 
 ## 💡 학습 및 작성 원칙 (Writing Principles)
@@ -68,4 +75,3 @@
 ## 🤖 AI Devlog Generator
 
 이 저장소는 `template.md`에 정의된 프롬프트를 기반으로 일일 학습 및 트러블슈팅 내역을 정밀한 Devlog형 마크다운 문서로 변환하여 관리합니다.
-```
