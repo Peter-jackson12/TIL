@@ -61,6 +61,7 @@
 | **2026-08-27** | Python / Viz / AI | Python 3.14 시각화(Matplotlib/Seaborn OOP), AI 에이전트(Cline/MCP/Gemini 429 쿨다운), KRX 주식 70만 행 도메인 무결성 및 1:N 명칭 노이즈 탐지 엔진 | [📄 보기](./2026-08/2026-08-27.md) |
 | **2026-08-28** | Quant / Stats | KRX 70만 행 전처리 파이프라인 완성, Day & Night Anomaly(Overnight Alpha) 실증, 통계학 자유도($df$)와 베이즈 정리의 본질, Git 100MB 파일 제한 복구 | [📄 보기](./2026-08/2026-08-28.md) |
 | **2026-08-31** | Stats / SQL / DevOps | 통계학 수리 증명(이항분포 분산 $np(1-p)$·자유도 $n-1$ 베셀 보정), IEEE 754 부동소수점 극단값 $\text{SF}$ 연산, Python `set` 해시 비결정론, PostgreSQL 스키마 파이프라인 | [📄 보기](./2026-08/2026-08-31.md) |
+| **2026-09-01** | ML / OR / DevOps | ML 분류 모델 파이프라인(Logistic vs LightGBM), 마케팅 임계값(Threshold) 비즈니스 최적화, OR 최적화 이론 연계, Cline + 로컬 Ollama 우회 연동 | [📄 보기](./2026-09/2026-09-01.md) |
 
 ---
 
