@@ -45,7 +45,8 @@
 └── 2026-09/                  # 2026년 9월 학습 기록
     ├── 2026-09-01.md         # ML 분류 파이프라인, Threshold 최적화, OR 최적화 이론, Cline 로컬 연동
     ├── 2026-09-02.md         # 이분 탐색·B+Tree 인덱스, 원-핫 인코딩 수리 증명, OLS 정규방정식, KIS 퀀트
-    └── 2026-09-04.md         # 회귀·분류 엔진(OLS/GD/BCE), L1/L2 정규화·CV 튜닝, 분류 지표의 역설(기상청 CSI), 시계열 누수 방어
+    ├── 2026-09-04.md         # 회귀·분류 엔진(OLS/GD/BCE), L1/L2 정규화·CV 튜닝, 분류 지표의 역설(기상청 CSI), 시계열 누수 방어
+    └── 2026-09-07.md         # OOP 메모리 스코프, 분류 평가지표(F1/ROC-AUC), CART 동점 분기·외삽 한계, 트리 앙상블·유니버스 커팅
 ```
 
 ---
@@ -64,10 +65,12 @@
 | **2026-08-25** | Pandas / EDA / SQL | Pandas 다중 집계(`agg`/`pivot_table`), `str.split`/`rrule` 시계열 생성, Git 스냅샷 원리, EDA 이상치(IQR vs 도메인) 분석, SQL `LEFT JOIN` 무결성 검증 | [📄 보기](./2026-08/2026-08-25.md) |
 | **2026-08-27** | Python / Viz / AI | Python 3.14 시각화(Matplotlib/Seaborn OOP), AI 에이전트(Cline/MCP/Gemini 429 쿨다운), KRX 주식 70만 행 도메인 무결성 및 1:N 명칭 노이즈 탐지 엔진 | [📄 보기](./2026-08/2026-08-27.md) |
 | **2026-08-28** | Quant / Stats | KRX 70만 행 전처리 파이프라인 완성, Day & Night Anomaly(Overnight Alpha) 실증, 통계학 자유도($df$)와 베이즈 정리의 본질, Git 100MB 파일 제한 복구 | [📄 보기](./2026-08/2026-08-28.md) |
-| **2026-08-31** | Stats / SQL / DevOps | 통계학 수리 증명(이항분포 분산 $np(1-p)$·자유도 $n-1$ 베셀 보정), IEEE 754 부동소수점 극단값 $\text{SF}$ 연산, Python `set` 해시 비결정론, PostgreSQL 스키마 파이프라인 | [📄 보기](./2026-08/2026-08-31.md) |
+| **2026-08-31** | Stats / SQL / DevOps | 통계학 수리 증명(이항분포 분산 $np(1-p)$·자유도 $n-1$ 베셀 보정), IEEE 754 극단값 SF, Python `set` 해시 비결정론, PostgreSQL 스키마 파이프라인 | [📄 보기](./2026-08/2026-08-31.md) |
 | **2026-09-01** | ML / OR / DevOps | ML 분류 모델 파이프라인(Logistic vs LightGBM), 마케팅 임계값(Threshold) 비즈니스 최적화, OR 최적화 이론 연계, Cline + 로컬 Ollama 우회 연동 | [📄 보기](./2026-09/2026-09-01.md) |
 | **2026-09-02** | ML / Algo / Quant | 이분 탐색과 B+Tree 인덱스 연계, 원-핫 인코딩과 경사하강법 수리 증명, OLS 정규방정식(SSE) 구현, RTX 5060 환경 및 KIS End-to-End 퀀트 아키텍처 | [📄 보기](./2026-09/2026-09-02.md) |
-| **2026-09-04** | ML / Stats / Quant | 선형·로지스틱 회귀 엔진(OLS vs GD vs LP), L1/L2 정규화 및 GridSearchCV 튜닝, 분류 지표의 역설(기상청 강수적중률 CSI 실증), 퀀트 시계열 초단타 누수(Leakage) 방어 | [📄 보기](./2026-09/2026-09-03.md) |
+| **2026-09-04** | ML / Stats / Quant | 선형·로지스틱 회귀 엔진(OLS vs GD vs LP), L1/L2 정규화 및 GridSearchCV 튜닝, 분류 지표의 역설(기상청 CSI 실증), 퀀트 시계열 초단타 누수(Leakage) 방어 | [📄 보기](./2026-09/2026-09-04.md) |
+| **2026-09-07** | ML / OOP / Quant | OOP 인스턴스 메모리 수명주기(`self`), 분류 평가지표 역설(혼동행렬·조화평균 F1·ROC-AUC), CART 동점 분기·외삽 한계, 트리 앙상블과 퀀트 유니버스 커팅 | [📄 보기](./2026-09/2026-09-07.md) |
+
 ---
 
 ## 💡 학습 및 작성 원칙 (Writing Principles)
