@@ -6,16 +6,23 @@ now = datetime.datetime.now()
 today_str = now.strftime("%Y-%m-%d")
 month_str = now.strftime("%Y-%m")
 
-# 2. 프로젝트 루트 폴더 기준 '월별 폴더' 생성 (예: TIL/2026-03/)
+# 2. 프로젝트 루트 폴더 기준 '월별 폴더' 생성 (예: 2026-09/)
 BASE_DIR = Path(__file__).resolve().parent
 target_dir = BASE_DIR / month_str
 target_dir.mkdir(exist_ok=True)
 
-# 3. 마크다운 파일 경로 설정 (예: TIL/2026-03/2026-03-31.md)
+# 3. 마크다운 파일 경로 설정 (예: 2026-09/2026-09-08.md)
 file_path = target_dir / f"{today_str}.md"
 
-# 4. Devlog 포맷으로 통일된 마크다운 템플릿
-header = f"# 📝 Today I Learned (TIL)\n\n> **날짜:** {today_str}\n> **작성자:** Peter-jackson12\n\n---\n\n"
+# 4. Devlog 표준 4단계 포맷으로 통일된 마크다운 템플릿
+header = (
+    f"# 📝 Today I Learned (TIL)\n\n"
+    f"> **날짜:** {today_str}  \n"
+    f"> **작성자:** Peter-jackson12  \n"
+    f"> **주제:** \n\n"
+    f"---\n\n"
+)
+
 body = (
     "## 1. 문제 인식 (Problem Recognition)\n"
     "* \n\n"
@@ -27,9 +34,10 @@ body = (
     "### Issue 1: \n"
     "* **원인:** \n"
     "* **해결:** \n\n"
-    "---\n"
-    "### Key Takeaways\n"
-    "1. \n"
+    "---\n\n"
+    "## 4. 퀀트 & 통계학적 인사이트 (Key Takeaways)\n"
+    "### 1. \n"
+    "* \n"
 )
 
 markdown_content = header + body
