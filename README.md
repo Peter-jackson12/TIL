@@ -47,7 +47,8 @@
     ├── 2026-09-02.md         # 이분 탐색·B+Tree 인덱스, 원-핫 인코딩 수리 증명, OLS 정규방정식, KIS 퀀트
     ├── 2026-09-04.md         # 회귀·분류 엔진(OLS/GD/BCE), L1/L2 정규화·CV 튜닝, 분류 지표의 역설(기상청 CSI), 시계열 누수 방어
     ├── 2026-09-07.md         # OOP 메모리 스코프, 분류 평가지표(F1/ROC-AUC), CART 동점 분기·외삽 한계, 트리 앙상블·유니버스 커팅
-    └── 2026-09-08.md         # ML 불균형 분류 6단계·준지도학습(Pseudo-Labeling), K-Means/PCA 수리 증명(Cov=Corr), SQL CBO, HF 1초봉 LOB 파이프라인
+    ├── 2026-09-08.md         # ML 불균형 분류 6단계·준지도학습(Pseudo-Labeling), K-Means/PCA 수리 증명(Cov=Corr), SQL CBO, HF 1초봉 LOB 파이프라인
+    └── 2026-09-10.md         # RDBMS CBO 옵티마이저, B-Tree 인덱스 vs Hash Join, 다단계 JOIN 체인 무결성(ON vs WHERE), 32비트 키움 Open API+ 환경 구축
 
 ```
 
@@ -73,6 +74,7 @@
 | **2026-09-04** | ML / Stats / Quant | 선형·로지스틱 회귀 엔진(OLS vs GD vs LP), L1/L2 정규화 및 GridSearchCV 튜닝, 분류 지표의 역설(기상청 CSI 실증), 퀀트 시계열 초단타 누수(Leakage) 방어 | [📄 보기](./2026-09/2026-09-04.md) |
 | **2026-09-07** | ML / OOP / Quant | OOP 인스턴스 메모리 수명주기(`self`), 분류 평가지표 역설(혼동행렬·조화평균 F1·ROC-AUC), CART 동점 분기·외삽 한계, 트리 앙상블과 퀀트 유니버스 커팅 | [📄 보기](./2026-09/2026-09-07.md) |
 | **2026-09-08** | ML / Data / Quant | 100만 행 불균형 분류 6단계 진화(Threshold 0.22 튜닝·비대칭 Pseudo-Labeling 8.9만 건 증강·시간 역산 복원), K-Means 거리 왜곡·PCA 수리 증명(Cov=Corr), SQL 옵티마이저 CBO 사이클, KIS WebSocket 및 1초봉 LOB 51컬럼 수집기 | [📄 보기](./2026-09/2026-09-08.md) |
+| **2026-09-10** | SQL / Quant / Infra | RDBMS CBO 옵티마이저·실행계획(EXPLAIN) 해석, B-Tree 인덱스 vs 인메모리 Hash Join 메커니즘, 다단계 JOIN 체인과 1:N 행 팽창 검증, `LEFT JOIN`의 `ON` vs `WHERE` 필터링 위치와 Anti-Join 무결성 검증, 키움증권 Open API+ 32비트 격리 가상환경 구축 | [📄 보기](./2026-09/2026-09-10.md) |
 ---
 
 ## 💡 학습 및 작성 원칙 (Writing Principles)
