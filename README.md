@@ -50,7 +50,8 @@
     ├── 2026-09-08.md         # ML 불균형 분류 6단계·준지도학습(Pseudo-Labeling), K-Means/PCA 수리 증명(Cov=Corr), SQL CBO, HF 1초봉 LOB 파이프라인
     ├── 2026-09-10.md         # RDBMS CBO 옵티마이저, B-Tree 인덱스 vs Hash Join, 다단계 JOIN 체인 무결성(ON vs WHERE), 32비트 키움 Open API+ 환경 구축
     ├── 2026-09-11.md         # PostgreSQL 윈도우 함수(행 보존성·순위 3종·NTILE·프레임·LAG/LEAD·CBO WindowAgg), 키움 32비트 2,550개 전 종목 틱 수집기, Lee-Ready 호가 대조 알고리즘, 순수 틱 미시구조 엔진
-    └── 2026-09-14.md         # 가설검정 수리 증명(p-value 귀류법·α-β 시소·동등성 검정 TOST), EXPLAIN ANALYZE 병렬 계측, 항공 지연 ML 외부 기상 결합 사후 부검(AUC 0.59 급락), 퀀트 V2 런·피처 스토어
+    ├── 2026-09-14.md         # 가설검정 수리 증명(p-value 귀류법·α-β 시소·동등성 검정 TOST), EXPLAIN ANALYZE 병렬 계측, 항공 지연 ML 외부 기상 결합 사후 부검(AUC 0.59 급락), 퀀트 V2 런·피처 스토어
+    └── 2026-09-15.md         # 가설검정 실질적 유의성(Cohen's d vs p-value)·Levene 등분산 알고리즘 수리 해체, Ames Housing 주피터 범용 파이프라인, 항공 지연 ML 조기종료(ES) 병리 부검과 트리 50그루 고정 역전, 퀀트 틱 수집 데몬 무인 검증 및 AI 에이전트 150k 토큰 다이어트
 ```
 
 ---
@@ -77,7 +78,8 @@
 | **2026-09-08** | ML / Data / Quant | 100만 행 불균형 분류 6단계 진화(Threshold 0.22 튜닝·비대칭 Pseudo-Labeling 8.9만 건 증강·시간 역산 복원), K-Means 거리 왜곡·PCA 수리 증명(Cov=Corr), SQL 옵티마이저 CBO 사이클, KIS WebSocket 및 1초봉 LOB 51컬럼 수집기 | [📄 보기](./2026-09/2026-09-08.md) |
 | **2026-09-10** | SQL / Quant / Infra | RDBMS CBO 옵티마이저·실행계획(EXPLAIN) 해석, B-Tree 인덱스 vs 인메모리 Hash Join 메커니즘, 다단계 JOIN 체인과 1:N 행 팽창 검증, `LEFT JOIN`의 `ON` vs `WHERE` 필터링 위치와 Anti-Join 무결성 검증, 키움증권 Open API+ 32비트 격리 가상환경 구축 | [📄 보기](./2026-09/2026-09-10.md) |
 | **2026-09-11** | SQL / Quant / Microstructure | PostgreSQL 윈도우 함수 딥다이브(GROUP BY 대비 행 보존성, 순위 3종·NTILE 사분위수, 프레임 이동평균·LAG/LEAD, CBO WindowAgg/Sort 내부 구조), 키움 Open API+ 32비트 2,550개 보통주 전 종목 무차별 틱 수집기, FID 14 결손 대응 Lee-Ready 호가 대조 알고리즘, 1초봉 한계(스프레드 -0.395%) 극복 및 순수 틱 백테스터 구현 | [📄 보기](./2026-09/2026-09-11.md) |
-| **2026-09-14** | Stats / SQL / ML / Quant | 가설검정 수리 증명($p$-value 귀류법·$\alpha$-$\beta$ 시소 붕괴와 $n$의 치트키, 동등성 검정 TOST), PostgreSQL `EXPLAIN ANALYZE` 병렬 스캔 정밀 계측(`loops=3`), 항공 지연 ML 외부 기상 결합 사후 부검(Post-Mortem: AUC 0.59 급락과 피처 오염 메커니즘), 퀀트 Architecture V2 런·피처 스토어 패리티 파이프라인 구축 | [📄 보기](./2026-09/2026-09-14.md) |
+| **2026-09-14** | Stats / SQL / ML / Quant | 가설검정 수리 증명($p$-value 귀류법·$\alpha$-$\beta$ 시소·동등성 검정 TOST), PostgreSQL `EXPLAIN ANALYZE` 병렬 스캔 정밀 계측(`loops=3`), 항공 지연 ML 외부 기상 결합 사후 부검(Post-Mortem: AUC 0.59 급락과 피처 오염 메커니즘), 퀀트 Architecture V2 런·피처 스토어 패리티 파이프라인 구축 | [📄 보기](./2026-09/2026-09-14.md) |
+| **2026-09-15** | Stats / ML / Quant / AI DevOps | 가설검정 실질적 유의성(Cohen's d vs $p$-value)·Levene 등분산 알고리즘 수리 해체, Ames Housing 주피터 범용 파이프라인, 항공 지연 ML 조기종료(ES) 병리 부검과 트리 50그루 고정 역전(AUC 0.6451), 퀀트 틱 수집 데몬 무인 검증 및 AI 에이전트 150k 토큰 다이어트 | [📄 보기](./2026-09/2026-09-15.md) |
 
 ---
 
