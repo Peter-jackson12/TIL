@@ -1,51 +1,57 @@
-import datetime
+"""학습 날짜의 빈 TIL 양식을 생성한다. 기존 파일은 덮어쓰지 않는다."""
+
+import argparse
+from datetime import date
 from pathlib import Path
 
-# 1. 오늘 날짜 및 년-월 구하기
-now = datetime.datetime.now()
-today_str = now.strftime("%Y-%m-%d")
-month_str = now.strftime("%Y-%m")
 
-# 2. 프로젝트 루트 폴더 기준 '월별 폴더' 생성 (예: 2026-09/)
-BASE_DIR = Path(__file__).resolve().parent
-target_dir = BASE_DIR / month_str
-target_dir.mkdir(exist_ok=True)
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "date", nargs="?", type=date.fromisoformat, default=date.today(),
+        help="학습 날짜 YYYY-MM-DD (생략하면 컴퓨터의 오늘 날짜)",
+    )
+    learning_date = parser.parse_args().date
+    base_dir = Path(__file__).resolve().parent
+    target_dir = base_dir / learning_date.strftime("%Y-%m")
+    target_dir.mkdir(exist_ok=True)
+    file_path = target_dir / f"{learning_date.isoformat()}.md"
 
-# 3. 마크다운 파일 경로 설정 (예: 2026-09/2026-09-08.md)
-file_path = target_dir / f"{today_str}.md"
+    content = f"""# 📝 Today I Learned (TIL)
 
-# 4. Devlog 표준 4단계 포맷으로 통일된 마크다운 템플릿
-header = (
-    f"# 📝 Today I Learned (TIL)\n\n"
-    f"> **날짜:** {today_str}  \n"
-    f"> **작성자:** Peter-jackson12  \n"
-    f"> **주제:** \n\n"
-    f"---\n\n"
-)
+> **날짜:** {learning_date.isoformat()}<br>
+> **작성자:** Peter-jackson12<br>
+> **주제:**
 
-body = (
-    "## 1. 문제 인식 (Problem Recognition)\n"
-    "* \n\n"
-    "## 2. 직접 코드 실험 (Direct Code Experiment)\n"
-    "```python\n"
-    "# 실험 및 검증 코드 작성\n"
-    "```\n\n"
-    "## 3. 트러블슈팅 및 해결 (Troubleshooting & Resolution)\n"
-    "### Issue 1: \n"
-    "* **원인:** \n"
-    "* **해결:** \n\n"
-    "---\n\n"
-    "## 4. 퀀트 & 통계학적 인사이트 (Key Takeaways)\n"
-    "### 1. \n"
-    "* \n"
-)
+<!-- 내용이 없는 항목은 삭제하고 번호를 맞춥니다. 실제 실행과 예시, 관찰과 추측을 구분합니다. -->
 
-markdown_content = header + body
+## 1. 오늘 배운 것
 
-# 5. 파일 생성 (utf-8-sig 적용으로 VS Code/한글 깨짐 차단)
-if not file_path.exists():
-    with open(file_path, "w", encoding="utf-8-sig") as f:
-        f.write(markdown_content)
-    print(f"✅ [생성 완료] {file_path.relative_to(BASE_DIR)}")
-else:
-    print(f"⚠️ [이미 존재함] {file_path.relative_to(BASE_DIR)}")
+-
+
+## 2. 내가 궁금했던 질문과 이해한 답
+
+- **질문:**
+- **이해한 답:**
+
+## 3. 직접 해본 것과 결과
+
+<!-- 직접 실행한 경우에만 코드·조건·결과를 기록합니다. -->
+
+-
+
+## 4. 아직 헷갈리는 것 / 다음에 확인할 것
+
+-
+"""
+    try:
+        with file_path.open("x", encoding="utf-8-sig") as output:
+            output.write(content)
+    except FileExistsError:
+        print(f"[이미 존재함] {file_path.relative_to(base_dir)}")
+    else:
+        print(f"[생성 완료] {file_path.relative_to(base_dir)}")
+
+
+if __name__ == "__main__":
+    main()
