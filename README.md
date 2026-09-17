@@ -67,6 +67,7 @@
 | **2026-09-14** | Stats / SQL / ML / Quant | 가설검정 수리 증명($p$-value 귀류법·$\alpha$-$\beta$ 시소·동등성 검정 TOST), PostgreSQL `EXPLAIN ANALYZE` 병렬 스캔 정밀 계측(`loops=3`), 항공 지연 ML 외부 기상 결합 사후 부검(Post-Mortem: AUC 0.59 급락과 피처 오염 메커니즘), 퀀트 Architecture V2 런·피처 스토어 패리티 파이프라인 구축 | [📄 보기](./2026-09/2026-09-14.md) |
 | **2026-09-15** | Stats / ML / Quant / AI DevOps | 가설검정 실질적 유의성(Cohen's d vs $p$-value)·Levene 등분산 알고리즘 수리 해체, Ames Housing 주피터 범용 파이프라인, 항공 지연 ML 조기종료(ES) 병리 부검과 트리 50그루 고정 역전(AUC 0.6451), 퀀트 틱 수집 데몬 무인 검증 및 AI 에이전트 150k 토큰 다이어트 | [📄 보기](./2026-09/2026-09-15.md) |
 | **2026-09-16** | Stats / Algo / ML / Quant | 통계 검정·Pearson·OLS 수리 이해, 항공 지연 OOF·결측 오류 분석, 틱 수집 컨트롤 타워 구현 및 검증 | [📄 보기](./2026-09/2026-09-16.md) |
+| **2026-09-17** | Stats / A-B Test / Quant | Pearson·단순회귀 $R^2$ 수리 연결, Cookie Cats A/B 랜덤화·SRM 진단과 MDE-Power 표본설계, Stock NXT venue 판정·크래시 대응·구독 계획 구현(커밋 확인) 및 실규모 병목 우선순위 판단, Airplane Carrier 식별자·BTS 연도 후보 압축 | [📄 보기](./2026-09/2026-09-17.md) |
 
 ---
 
