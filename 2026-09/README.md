@@ -15,4 +15,4 @@
 | **15일** | Stats / ML / Quant / AI DevOps | 가설검정 실질적 유의성(Cohen's d vs $p$-value)·Levene 등분산 알고리즘 수리 해체, Ames Housing 주피터 범용 파이프라인, 항공… | [보기](./2026-09-15.md) |
 | **16일** | Stats / Algo / ML / Quant | 통계 검정·Pearson·OLS 수리 이해, 항공 지연 OOF·결측 오류 분석, 틱 수집 컨트롤 타워 구현 및 검증 | [보기](./2026-09-16.md) |
 | **17일** | Stats / A-B Test / Quant | Pearson·단순회귀 $R^2$ 수리 연결, Cookie Cats A/B 랜덤화·SRM 진단과 MDE-Power 표본설계, Stock NXT venue 판정·… | [보기](./2026-09-17.md) |
-| **18일** | Quant / Data Engineering | Airplane 우선순위 공항 20곳의 공항-관측소 매핑을 NOAA HOMR 공식 이력으로 대조해 identifier 버그 후보 발견, Stock 애프터마켓 전… | [보기](./2026-09-18.md) |
+| **18일** | Stats / Product Analytics / Quant / Data Engineering | 확률·통계에서 프로덕트 분석(KPI·AARRR·Funnel·A/B 표본설계)으로 전환, Airplane 우선순위 공항 20곳의 공항-관측소 매핑을 NOAA HO… | [보기](./2026-09-18.md) |
