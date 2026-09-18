@@ -1,54 +1,31 @@
-# 📚 Data Science & AI Bootcamp — TIL & Devlog
+<p align="center">
+  <img src="./docs/assets/til-banner.svg" alt="Today I Learned — Data Science & AI 학습과 실험의 기록" width="100%">
+</p>
 
-> 9.5개월간의 데이터 사이언스 & AI 서비스 개발 과정을 기록하는 개발 일지(Devlog) 저장소입니다.  
+<h1 align="center">배우고, 질문하고, 기록합니다.</h1>
+
+<p align="center"><strong>Data Science & AI Bootcamp · TIL & Devlog</strong></p>
+
+<p align="center">
+  <a href="#learning-log">📚 학습 기록</a> &nbsp; · &nbsp;
+  <a href="./docs/topics.md">🧭 주제별 탐색</a> &nbsp; · &nbsp;
+  <a href="./template.md">✍️ 작성 템플릿</a> &nbsp; · &nbsp;
+  <a href="#writing-guide">📝 작성 가이드</a>
+</p>
+
+> 9.5개월간의 데이터 사이언스 & AI 서비스 개발 과정을 기록하는 개발 일지(Devlog) 저장소입니다.<br>
 > 수업에서 배운 내용, 궁금했던 질문, 직접 해본 실험과 해결 과정을 기록합니다. 개념을 이해한 날은 짧은 TIL로, 프로젝트 문제를 해결한 날은 자세한 Devlog로 남깁니다.
 
----
 
-## 🛠️ Main Tech Stack & Tools
+<br>
 
-![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white) 
-![uv](https://img.shields.io/badge/Package_Manager-uv-DE5B43?style=flat-square&logo=rust&logoColor=white) 
-![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) 
-![Git](https://img.shields.io/badge/VCS-Git-F05032?style=flat-square&logo=git&logoColor=white) 
-![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![DBeaver](https://img.shields.io/badge/Tool-DBeaver-372923?style=flat-square&logo=dbeaver&logoColor=white)
-![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) 
-![SciPy](https://img.shields.io/badge/Stats-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-![Scikit_Learn](https://img.shields.io/badge/ML-Scikit_Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Streamlit](https://img.shields.io/badge/App-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Plotly](https://img.shields.io/badge/Viz-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-![Ollama](https://img.shields.io/badge/Local_AI-Ollama-black?style=flat-square&logo=ollama&logoColor=white)
+| 📖 TIL · 개념을 이해한 날 | 🔬 Devlog · 문제를 해결한 날 |
+| :--- | :--- |
+| 배운 개념과 질문, 이해한 답을 짧게 정리합니다. | 문제와 실험, 해결 과정과 배운 점을 자세히 남깁니다. |
 
----
+<a id="learning-log"></a>
 
-## 📂 저장소 구조 (Repository Architecture)
-
-```text
-.
-├── README.md                 # 사용 안내 및 월별 요약 목차
-├── template.md               # 학습 자료를 TIL로 정리하는 요청문
-├── create_til.py             # 빈 TIL 양식 생성 (선택 사항)
-├── main.py                   # 기존 브랜치 연습 파일
-├── docs/
-│   └── topics.md             # 주제별 색인 (자동 생성)
-├── tools/
-│   ├── build_index.py        # 기록 머리말을 읽어 목차를 생성
-│   └── legacy_index.tsv      # 초기 형식 기록의 목차 정보 보존
-├── 2026-08/                  # YYYY-MM-DD.md 형식의 일별 기록
-│   └── README.md             # 그 달의 일별 목차 (자동 생성)
-└── 2026-09/
-    └── README.md
-```
-
-목차는 손으로 고치지 않습니다. 각 기록 머리말의 `날짜·단계·주제`가 원본이고,
-README의 월별 요약과 월별 목차, 주제별 색인은 모두 거기서 생성합니다. 같은 설명을
-두 곳에 적어 두면 시간이 지나며 서로 어긋나기 때문입니다.
-
----
-
-## 📑 학습 기록 목차
+## 📚 Learning Log
 
 <!-- 목차 시작: tools/build_index.py 가 생성합니다. 직접 고치지 마세요. -->
 
@@ -61,7 +38,18 @@ README의 월별 요약과 월별 목차, 주제별 색인은 모두 거기서 �
 
 <!-- 목차 끝 -->
 
----
+<br>
+
+## 🧰 Toolbox
+
+| 분야 | 기술 및 도구 |
+| :--- | :--- |
+| **Language & Tools** | ![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white) ![uv](https://img.shields.io/badge/Package_Manager-uv-DE5B43?style=flat-square&logo=rust&logoColor=white) ![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![Git](https://img.shields.io/badge/VCS-Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **Database** | ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![DBeaver](https://img.shields.io/badge/Tool-DBeaver-372923?style=flat-square&logo=dbeaver&logoColor=white) |
+| **Analysis & ML** | ![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![SciPy](https://img.shields.io/badge/Stats-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![Scikit_Learn](https://img.shields.io/badge/ML-Scikit_Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) |
+| **Apps & Visualization** | ![Streamlit](https://img.shields.io/badge/App-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Viz-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![Ollama](https://img.shields.io/badge/Local_AI-Ollama-black?style=flat-square&logo=ollama&logoColor=white) |
+
+<br>
 
 ## 💡 학습 및 작성 원칙
 
@@ -70,7 +58,16 @@ README의 월별 요약과 월별 목차, 주제별 색인은 모두 거기서 �
 3. **다시 이해할 수 있게 쓰기:** 중요한 질문, 코드, 오류 메시지, 실행 조건, 출처를 보존합니다. 특정 실험의 결과를 보편적 결론으로 단정하지 않습니다.
 4. **간결하게 유지하기:** 주제 요약은 한 줄로 적고, 퀀트 연결이나 거창한 성과 표현을 의무화하지 않습니다. 기존 기록은 당시 형식을 유지합니다.
 
-## ✍️ 하루 기록 흐름
+<br>
+
+<a id="writing-guide"></a>
+
+## ✍️ Writing Guide
+
+**수업과 질문 → 하루 마무리 요약 → TIL 작성 → 목차 갱신**
+
+<details>
+<summary><strong>📝 하루 기록 흐름과 요약 요청문</strong></summary>
 
 ### 1. 수업과 질문
 
@@ -118,7 +115,10 @@ python tools/build_index.py --check
 
 프로젝트 문제 해결이 중심인 날에는 기존의 **문제 → 실험 → 해결 → 배운 점** 형식을 사용해도 됩니다.
 
-## 🛠️ 빈 양식 생성 (선택 사항)
+</details>
+
+<details>
+<summary><strong>🛠️ 빈 양식 생성 · 직접 작성할 때</strong></summary>
 
 AI에게 파일 작성을 맡길 때는 스크립트를 먼저 실행할 필요가 없습니다. 직접 작성할 빈 양식이 필요할 때 저장소 루트에서 실행합니다.
 
@@ -137,3 +137,36 @@ Python 3.10 이상과 표준 라이브러리만 사용합니다. Python 명령�
 ```
 
 스크립트는 월별 폴더와 빈 마크다운 파일만 생성하며, 기존 파일은 덮어쓰지 않습니다. AI 호출, 내용 정리, README 목차 갱신은 수행하지 않습니다.
+
+</details>
+
+<details>
+<summary><strong>📂 저장소 구조와 목차 관리</strong></summary>
+
+```text
+.
+├── README.md                 # 사용 안내 및 월별 요약 목차
+├── template.md               # 학습 자료를 TIL로 정리하는 요청문
+├── create_til.py             # 빈 TIL 양식 생성 (선택 사항)
+├── main.py                   # 기존 브랜치 연습 파일
+├── docs/
+│   ├── assets/               # README 배너
+│   └── topics.md             # 주제별 색인 (자동 생성)
+├── tools/
+│   ├── build_index.py        # 기록 머리말을 읽어 목차를 생성
+│   └── legacy_index.tsv      # 초기 형식 기록의 목차 정보 보존
+├── 2026-08/                  # YYYY-MM-DD.md 형식의 일별 기록
+│   └── README.md             # 그 달의 일별 목차 (자동 생성)
+└── 2026-09/
+    └── README.md
+```
+
+목차는 손으로 고치지 않습니다. 각 기록 머리말의 `날짜·단계·주제`가 원본이고,
+README의 월별 요약과 월별 목차, 주제별 색인은 모두 거기서 생성합니다. 같은 설명을
+두 곳에 적어 두면 시간이 지나며 서로 어긋나기 때문입니다.
+
+</details>
+
+---
+
+<p align="center"><sub>작은 배움도, 해결하지 못한 질문도 다음 기록의 출발점이 됩니다.</sub></p>
