@@ -45,7 +45,7 @@ def main():
 -
 """
     try:
-        with file_path.open("x", encoding="utf-8-sig") as output:
+        with file_path.open("x", encoding="utf-8", newline="\n") as output:
             output.write(content)
     except FileExistsError:
         print(f"[이미 존재함] {file_path.relative_to(base_dir)}")
