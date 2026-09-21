@@ -1,6 +1,6 @@
 # 2026-09 학습 기록
 
-이 달의 기록 13건입니다. 전체 목차는 [저장소 README](../README.md)에 있습니다.
+이 달의 기록 14건입니다. 전체 목차는 [저장소 README](../README.md)에 있습니다.
 
 | 날짜 | 단계 | 주제 | 기록 |
 | :---: | :---: | :--- | :---: |
@@ -17,3 +17,4 @@
 | **17일** | Stats / A-B Test / Quant | Pearson·단순회귀 $R^2$ 수리 연결, Cookie Cats A/B 랜덤화·SRM 진단과 MDE-Power 표본설계, Stock NXT venue 판정·… | [보기](./2026-09-17.md) |
 | **18일** | Stats / Product Analytics / Quant / Data Engineering | 확률·통계에서 프로덕트 분석(KPI·AARRR·Funnel·A/B 표본설계)으로 전환, Airplane 우선순위 공항 20곳의 공항-관측소 매핑을 NOAA HO… | [보기](./2026-09-18.md) |
 | **20일** | Quant / Data Engineering / DevOps / AI DevOps | Stock 실데이터 후보 선정 보류와 clean 세션 우선 결정, Airplane Git-only/로컬 검증 분리·날씨 수집 재개 예산 계약, GitHub 플러… | [보기](./2026-09-20.md) |
+| **21일** | Product Analytics / Stats / ML / Quant / Data Engineering / DevOps | 리텐션·퍼널·A/B 실험 설계와 Ridge/Lasso 복습, product_2 과제 검토, Stock/Airplane 운영 안정화 | [보기](./2026-09-21.md) |
