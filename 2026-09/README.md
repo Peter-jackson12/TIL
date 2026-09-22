@@ -18,4 +18,4 @@
 | **18일** | Stats / Product Analytics / Quant / Data Engineering | 확률·통계에서 프로덕트 분석(KPI·AARRR·Funnel·A/B 표본설계)으로 전환, Airplane 우선순위 공항 20곳의 공항-관측소 매핑을 NOAA HO… | [보기](./2026-09-18.md) |
 | **20일** | Quant / Data Engineering / DevOps / AI DevOps | Stock 실데이터 후보 선정 보류와 clean 세션 우선 결정, Airplane Git-only/로컬 검증 분리·날씨 수집 재개 예산 계약, GitHub 플러… | [보기](./2026-09-20.md) |
 | **21일** | Product Analytics / Stats / ML / Quant / Data Engineering / DevOps | 리텐션·퍼널·A/B 실험 설계와 Ridge/Lasso 복습, product_2 과제 검토, Stock/Airplane 운영 안정화 | [보기](./2026-09-21.md) |
-| **22일** | ML / Quant / Data Engineering / DevOps / AI DevOps | Stock execution oracle·정확 장부, Airplane 날씨 동일조건 평가, career-agent 공개 근거·공고 수집 | [보기](./2026-09-22.md) |
+| **22일** | Product Analytics / Stats / ML / Quant / Data Engineering / DevOps / AI DevOps | 프로덕트 분석 문제정의·퍼널/리텐션·A/B 실험 설계, Stock/Airplane 검증, career-agent 근거 기반 자동화 | [보기](./2026-09-22.md) |
