@@ -32,9 +32,9 @@
 | 월 | 기록 | 주요 단계 | 월별 목차 |
 | :---: | :---: | :--- | :---: |
 | **2026-08** | 16건 | Python · SQL · Quant · AI | [열기](./2026-08/README.md) |
-| **2026-09** | 14건 | Quant · ML · Stats · DevOps | [열기](./2026-09/README.md) |
+| **2026-09** | 15건 | Quant · ML · Stats · DevOps | [열기](./2026-09/README.md) |
 
-기록 30건. 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
+기록 31건. 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
 
 <!-- 목차 끝 -->
 
@@ -46,7 +46,7 @@
 | :--- | :--- |
 | **Language & Tools** | ![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white) ![uv](https://img.shields.io/badge/Package_Manager-uv-DE5B43?style=flat-square&logo=rust&logoColor=white) ![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![Git](https://img.shields.io/badge/VCS-Git-F05032?style=flat-square&logo=git&logoColor=white) |
 | **Database** | ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![DBeaver](https://img.shields.io/badge/Tool-DBeaver-372923?style=flat-square&logo=dbeaver&logoColor=white) |
-| **Analysis & ML** | ![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![SciPy](https://img.shields.io/badge/Stats-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![Scikit_Learn](https://img.shields.io/badge/ML-Scikit_Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) |
+| **Analysis & ML** | ![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![SciPy](https://img.shields.io/badge/Stats-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![Scikit_Learn](https://img.shields.io/badge/ML-Scikit_Learn-F7931E1?style=flat-square&logo=scikitlearn&logoColor=white) |
 | **Apps & Visualization** | ![Streamlit](https://img.shields.io/badge/App-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Viz-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![Ollama](https://img.shields.io/badge/Local_AI-Ollama-black?style=flat-square&logo=ollama&logoColor=white) |
 
 <br>
