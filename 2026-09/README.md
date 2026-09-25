@@ -1,6 +1,6 @@
 # 2026-09 학습 기록
 
-이 달의 기록 17건입니다. 전체 목차는 [저장소 README](../README.md)에 있습니다.
+이 달의 기록 18건입니다. 전체 목차는 [저장소 README](../README.md)에 있습니다.
 
 | 날짜 | 단계 | 주제 | 기록 |
 | :---: | :---: | :--- | :---: |
@@ -21,3 +21,4 @@
 | **22일** | Product Analytics / Stats / ML / Quant / Data Engineering / DevOps / AI DevOps | 프로덕트 분석 문제정의·퍼널/리텐션·A/B 실험 설계, Stock/Airplane 검증, career-agent 근거 기반 자동화 | [보기](./2026-09-22.md) |
 | **23일** | ML / Stats | ML 기초부터 시계열·규제·불균형·앙상블·SHAP·하이퍼파라미터 튜닝 복습, Career System 상태 정리 | [보기](./2026-09-23.md) |
 | **24일** | Quant / Data Engineering / DevOps / AI DevOps | Stock 포트폴리오·bounded prefix·frozen snapshot 안전 경계, Career System 검증·profile snapshot | [보기](./2026-09-24.md) |
+| **25일** | Quant / Data Engineering / DevOps / AI DevOps | Stock 검증 경계와 운영 UI, Career search audit·matcher v2 shadow | [보기](./2026-09-25.md) |
