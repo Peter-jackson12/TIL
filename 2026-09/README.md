@@ -1,6 +1,6 @@
 # 2026-09 학습 기록
 
-이 달의 기록 17건입니다. 전체 목차는 [저장소 README](../README.md)에 있습니다.
+이 달의 기록 21건입니다. 전체 목차는 [저장소 README](../README.md)에 있습니다.
 
 | 날짜 | 단계 | 주제 | 기록 |
 | :---: | :---: | :--- | :---: |
@@ -21,3 +21,7 @@
 | **22일** | Product Analytics / Stats / ML / Quant / Data Engineering / DevOps / AI DevOps | 프로덕트 분석 문제정의·퍼널/리텐션·A/B 실험 설계, Stock/Airplane 검증, career-agent 근거 기반 자동화 | [보기](./2026-09-22.md) |
 | **23일** | ML / Stats | ML 기초부터 시계열·규제·불균형·앙상블·SHAP·하이퍼파라미터 튜닝 복습, Career System 상태 정리 | [보기](./2026-09-23.md) |
 | **24일** | Quant / Data Engineering / DevOps / AI DevOps | Stock 포트폴리오·bounded prefix·frozen snapshot 안전 경계, Career System 검증·profile snapshot | [보기](./2026-09-24.md) |
+| **25일** | Quant / Data Engineering / DevOps / AI DevOps | Fast Backtest v1·Operator 실행 준비, Career matcher v2·daily operator 전환 | [보기](./2026-09-25.md) |
+| **26일** | Quant / Data Engineering / DevOps / AI DevOps | MWFD-04 전체 실행·파이프라인 감사 remediation, Career Tavily·출처 provenance 계약 | [보기](./2026-09-26.md) |
+| **27일** | Quant / Data Engineering / DevOps / AI DevOps | MWFD Stage C/D·dual collector smoke, Career eligibility v2·Practical Fit shadow 검증 | [보기](./2026-09-27.md) |
+| **28일** | Quant / Data Engineering / DevOps / AI DevOps | MWFD Stage E·강제청산 검증·KRX/NXT dual 수집, Career Hub 통합 | [보기](./2026-09-28.md) |
