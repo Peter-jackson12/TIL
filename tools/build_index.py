@@ -6,9 +6,9 @@
 2. 월 폴더마다 그 달의 일별 목차 파일
 3. 주제별 색인 파일
 
-목차를 손으로 고치지 않기 위한 도구다. 기록 파일이 유일한 원본이고 목차는
-그로부터 다시 만들어지므로, 같은 설명을 두 곳에 적어 두고 서로 어긋나는 일이
-생기지 않는다.
+목차 갱신을 돕는 선택 도구다. GitHub 플러그인으로 직접 갱신해도 된다.
+기록 파일이 원본이며, 갱신 방법에 관계없이 docs/index-format.md의 형식과
+정합성을 유지한다. --check는 동일한 기준으로 결과를 검증한다.
 
 사용법:
     python tools/build_index.py           # 목차 파일을 새로 쓴다
@@ -28,7 +28,7 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent.parent
 LEGACY_FILE = BASE / "tools" / "legacy_index.tsv"
 TOPICS_FILE = BASE / "docs" / "topics.md"
-INDEX_BEGIN = "<!-- 목차 시작: tools/build_index.py 가 생성합니다. 직접 고치지 마세요. -->"
+INDEX_BEGIN = "<!-- 목차 시작: 기록 머리말 기준으로 갱신합니다. docs/index-format.md 참고. -->"
 INDEX_END = "<!-- 목차 끝 -->"
 SUBJECT_LIMIT = 90
 
@@ -86,10 +86,19 @@ def render_readme_index(entries):
     for entry in entries:
         by_month[entry["month"]].append(entry)
 
-    lines = [
-        f"| 월 | 기록 | 주요 단계 | 월별 목차 |",
+    lines = ["### 최근 기록", ""]
+    for entry in reversed(entries[-3:]):
+        lines.append(
+            f"- [{entry['date']}](./{entry['month']}/{entry['date']}.md) · "
+            f"{shorten(entry['subject'])}"
+        )
+    lines.extend([
+        "",
+        "### 월별 기록",
+        "",
+        "| 월 | 기록 | 주요 단계 | 월별 목차 |",
         "| :---: | :---: | :--- | :---: |",
-    ]
+    ])
     for month in sorted(by_month):
         group = by_month[month]
         tags = Counter(tag for entry in group for tag in split_tags(entry["stage"]))
@@ -100,19 +109,29 @@ def render_readme_index(entries):
     return "\n".join(lines)
 
 
-def render_month_index(month, group):
+def render_month_index(month, group, months):
+    position = months.index(month)
+    navigation = ["[전체 목차](../README.md#learning-log)", "[주제별 색인](../docs/topics.md)"]
+    if position > 0:
+        previous = months[position - 1]
+        navigation.append(f"[← {previous}](../{previous}/README.md)")
+    if position + 1 < len(months):
+        following = months[position + 1]
+        navigation.append(f"[{following} →](../{following}/README.md)")
     lines = [
         f"# {month} 학습 기록",
         "",
-        f"이 달의 기록 {len(group)}건입니다. 전체 목차는 [저장소 README](../README.md)에 있습니다.",
+        " · ".join(navigation),
         "",
-        "| 날짜 | 단계 | 주제 | 기록 |",
-        "| :---: | :---: | :--- | :---: |",
+        f"이 달의 기록 {len(group)}건입니다. 날짜를 누르면 기록을 읽을 수 있습니다.",
+        "",
+        "| 날짜 | 단계 | 주제 |",
+        "| :---: | :--- | :--- |",
     ]
     for entry in group:
         lines.append(
-            f"| **{entry['date'][8:]}일** | {entry['stage']} | "
-            f"{shorten(entry['subject'])} | [보기](./{entry['date']}.md) |"
+            f"| [**{entry['date'][8:]}일**](./{entry['date']}.md) | {entry['stage']} | "
+            f"{shorten(entry['subject'])} |"
         )
     lines.append("")
     return "\n".join(lines)
@@ -124,18 +143,25 @@ def render_topics(entries):
         for tag in split_tags(entry["stage"]):
             topics[tag].append(entry)
 
+    ordered_tags = sorted(topics, key=lambda t: (-len(topics[t]), t))
     lines = [
         "# 주제별 색인",
         "",
+        "[전체 목차로 돌아가기](../README.md#learning-log)",
+        "",
         "날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.",
-        "각 기록 머리말의 단계 표기에서 자동으로 생성하므로 직접 고치지 않습니다.",
+        "각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)",
+        "",
+        " · ".join(f"[{tag} ({len(topics[tag])})](#topic-{i})" for i, tag in enumerate(ordered_tags, 1)),
         "",
     ]
-    for tag in sorted(topics, key=lambda t: (-len(topics[t]), t)):
+    for i, tag in enumerate(ordered_tags, 1):
         group = topics[tag]
         links = " · ".join(
             f"[{e['date'][5:]}](../{e['month']}/{e['date']}.md)" for e in group
         )
+        lines.append(f'<a id="topic-{i}"></a>')
+        lines.append("")
         lines.append(f"### {tag} ({len(group)}건)")
         lines.append("")
         lines.append(links)
@@ -155,7 +181,7 @@ def replace_index_block(readme_text, block):
             "README에서 목차 표시 구간을 찾지 못했습니다.\n"
             f"다음 두 줄을 목차 자리에 넣어 주세요.\n\n{INDEX_BEGIN}\n{INDEX_END}"
         )
-    return pattern.sub(replacement, readme_text)
+    return pattern.sub(lambda _: replacement, readme_text)
 
 
 def write_if_changed(path, content, check_only, stale):
@@ -201,7 +227,7 @@ def main():
         by_month[entry["month"]].append(entry)
     for month, group in sorted(by_month.items()):
         path = BASE / month / "README.md"
-        if write_if_changed(path, render_month_index(month, group), check_only, stale):
+        if write_if_changed(path, render_month_index(month, group, sorted(by_month)), check_only, stale):
             changed.append(f"{month}/README.md")
 
     if write_if_changed(TOPICS_FILE, render_topics(entries), check_only, stale):
@@ -209,7 +235,7 @@ def main():
 
     if check_only:
         if stale:
-            print("목차가 기록과 다릅니다. python tools/build_index.py 를 실행하세요.",
+            print("목차가 기록과 다릅니다. docs/index-format.md에 따라 갱신하거나 python tools/build_index.py 를 실행하세요.",
                   file=sys.stderr)
             for name in stale:
                 print(f"  {name}", file=sys.stderr)

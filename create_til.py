@@ -1,7 +1,8 @@
 """학습 날짜의 빈 TIL 양식을 생성한다. 기존 파일은 덮어쓰지 않는다.
 
 머리말의 단계와 주제는 목차 생성에 쓰이므로 비워 두지 않는다.
-내용을 채운 뒤 tools/build_index.py 를 실행하면 목차가 갱신된다.
+내용을 채운 뒤 docs/index-format.md에 따라 목차를 갱신한다.
+tools/build_index.py 는 선택적으로 사용할 수 있다.
 """
 
 import argparse

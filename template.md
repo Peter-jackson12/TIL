@@ -7,7 +7,10 @@
 아래 자료를 바탕으로 YYYY-MM-DD의 TIL을 작성해줘.
 저장 위치는 YYYY-MM/YYYY-MM-DD.md이고, 작성자는 Peter-jackson12야.
 같은 날짜 파일이 이미 있으면 기존 내용을 읽고 중복을 정리하면서 보완해줘.
-목차는 직접 고치지 말고 파일 작성 후 python tools/build_index.py 를 실행해서 생성해줘.
+파일 작성 후 docs/index-format.md에 따라 README·월별·주제별 목차를 함께 갱신해줘.
+GitHub 플러그인으로 직접 편집해도 돼. Python 실행은 필수가 아니고,
+로컬 실행이 가능하면 선택적으로 python tools/build_index.py 를 사용해줘.
+완료 후 해당 커밋의 CI 검사 결과를 확인하고 미실행·대기·실패를 구분해서 알려줘.
 
 [작성 원칙]
 - 내가 실제로 배운 내용과 질문을 중심으로 간결하게 작성해줘.
