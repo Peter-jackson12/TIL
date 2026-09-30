@@ -1,6 +1,6 @@
 # 2026-09 학습 기록
 
-이 달의 기록 21건입니다. 전체 목차는 [저장소 README](../README.md)에 있습니다.
+이 달의 기록 22건입니다. 전체 목차는 [저장소 README](../README.md)에 있습니다.
 
 | 날짜 | 단계 | 주제 | 기록 |
 | :---: | :---: | :--- | :---: |
@@ -25,3 +25,4 @@
 | **26일** | Quant / Data Engineering / DevOps / AI DevOps | MWFD-04 전체 실행·파이프라인 감사 remediation, Career Tavily·출처 provenance 계약 | [보기](./2026-09-26.md) |
 | **27일** | Quant / Data Engineering / DevOps / AI DevOps | MWFD Stage C/D·dual collector smoke, Career eligibility v2·Practical Fit shadow 검증 | [보기](./2026-09-27.md) |
 | **28일** | Quant / Data Engineering / DevOps / AI DevOps | MWFD Stage E·강제청산 검증·KRX/NXT dual 수집, Career Hub 통합 | [보기](./2026-09-28.md) |
+| **29일** | ML / Stats / Quant / Data Engineering / DevOps / AI DevOps | 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획 | [보기](./2026-09-29.md) |
