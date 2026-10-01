@@ -31,9 +31,9 @@
 
 ### 최근 기록
 
+- [2026-10-01](./2026-10/2026-10-01.md) · Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증
 - [2026-09-30](./2026-09/2026-09-30.md) · 정상성·ADF·ARIMA의 p·d·q, 예측 검증의 경계와 Career Agent 복구·Hub 표시 개선
 - [2026-09-29](./2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
-- [2026-09-28](./2026-09/2026-09-28.md) · MWFD Stage E·강제청산 검증·KRX/NXT dual 수집, Career Hub 통합
 
 ### 월별 기록
 
@@ -41,8 +41,9 @@
 | :---: | :---: | :--- | :---: |
 | **2026-08** | 16건 | Python · SQL · Quant · AI | [열기](./2026-08/README.md) |
 | **2026-09** | 23건 | Quant · ML · DevOps · Stats | [열기](./2026-09/README.md) |
+| **2026-10** | 1건 | ML · Stats · DevOps | [열기](./2026-10/README.md) |
 
-기록 39건. 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
+기록 40건. 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
 
 <!-- 목차 끝 -->
 

@@ -1,6 +1,6 @@
 # 2026-09 학습 기록
 
-[전체 목차](../README.md#learning-log) · [주제별 색인](../docs/topics.md) · [← 2026-08](../2026-08/README.md)
+[전체 목차](../README.md#learning-log) · [주제별 색인](../docs/topics.md) · [← 2026-08](../2026-08/README.md) · [2026-10 →](../2026-10/README.md)
 
 이 달의 기록 23건입니다. 날짜를 누르면 기록을 읽을 수 있습니다.
 
