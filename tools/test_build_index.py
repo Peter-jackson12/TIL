@@ -25,7 +25,7 @@ class IndexTests(unittest.TestCase):
         self.assertIn("[← 2026-07](../2026-07/README.md)", text)
         self.assertIn("[2026-11 →](../2026-11/README.md)", text)
         self.assertNotIn("2026-08", text)
-        self.assertIn("[**01일**](./2026-09-01.md)", text)
+        self.assertIn("[**01**](./2026-09-01.md)", text)
         self.assertNotIn("[보기]", text)
 
     def test_single_month_has_no_neighbor(self):
@@ -56,9 +56,9 @@ class IndexTests(unittest.TestCase):
 
     def test_month_rows_are_newest_first_with_stage(self):
         text = index.render_month_index("2026-09", [entry("2026-09-01"), entry("2026-09-02", "Stats / ML", "검증")], ["2026-09"])
-        self.assertLess(text.index("[**02일**]"), text.index("[**01일**]"))
+        self.assertLess(text.index("[**02**]"), text.index("[**01**]"))
         self.assertIn("검증<br>Stats / ML |", text)
-        self.assertIn("| 날짜 | 기록 / 단계 |", text)
+        self.assertIn("| 일 | 기록 / 단계 |", text)
 
     def test_topic_entries_include_summaries_and_full_dates(self):
         text = index.render_topics([entry("2026-09-01", "ML", "첫 질문"), entry("2026-09-02", "ML", "다음 질문")])

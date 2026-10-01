@@ -6,6 +6,6 @@
 
 이 달의 기록 **1건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
 
-| 날짜 | 기록 / 단계 |
+| 일 | 기록 / 단계 |
 | :---: | :--- |
-| [**01일**](./2026-10-01.md) | Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증<br>ML / Stats / DevOps |
+| [**01**](./2026-10-01.md) | Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증<br>ML / Stats / DevOps |

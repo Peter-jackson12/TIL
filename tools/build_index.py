@@ -130,12 +130,12 @@ def render_month_index(month, group, months):
         "",
         f"이 달의 기록 **{len(group)}건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.",
         "",
-        "| 날짜 | 기록 / 단계 |",
+        "| 일 | 기록 / 단계 |",
         "| :---: | :--- |",
     ]
     for entry in reversed(group):
         lines.append(
-            f"| [**{entry['date'][8:]}일**](./{entry['date']}.md) | "
+            f"| [**{entry['date'][8:]}**](./{entry['date']}.md) | "
             f"{shorten(entry['subject'])}<br>{entry['stage']} |"
         )
     lines.append("")
