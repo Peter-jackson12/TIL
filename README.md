@@ -1,66 +1,57 @@
-<p align="center">
-  <img src="./docs/assets/til-banner.svg" alt="Today I Learned — Data Science & AI 학습과 실험의 기록" width="100%">
-</p>
+<p><strong>DATA SCIENCE &amp; AI</strong> / TIL &amp; DEVLOG</p>
 
-<h1 align="center">배우고, 질문하고, 기록합니다.</h1>
+![TIL. Today I Learned.](./docs/assets/til-banner.svg)
 
-<p align="center"><strong>Data Science & AI Bootcamp · TIL & Devlog</strong></p>
+# 배우고, 질문하고, 기록합니다.
 
-<p align="center">
-  <a href="#learning-log">📚 학습 기록</a> &nbsp; · &nbsp;
-  <a href="./docs/topics.md">🧭 주제별 탐색</a> &nbsp; · &nbsp;
-  <a href="./template.md">✍️ 작성 템플릿</a> &nbsp; · &nbsp;
-  <a href="#writing-guide">📝 작성 가이드</a>
-</p>
+9.5개월간의 데이터 사이언스 & AI 서비스 개발 과정을 기록하는 개발 일지입니다.
+수업에서 배운 개념, 궁금했던 질문, 직접 해본 실험과 해결 과정을 남깁니다.
 
-> 9.5개월간의 데이터 사이언스 & AI 서비스 개발 과정을 기록하는 개발 일지(Devlog) 저장소입니다.<br>
-> 수업에서 배운 내용, 궁금했던 질문, 직접 해본 실험과 해결 과정을 기록합니다. 개념을 이해한 날은 짧은 TIL로, 프로젝트 문제를 해결한 날은 자세한 Devlog로 남깁니다.
+**[01 최근 기록](#latest)** &nbsp; / &nbsp; **[02 월별 아카이브](#archive)** &nbsp; / &nbsp; **[주제별 탐색](./docs/topics.md)** &nbsp; / &nbsp; [작성하기](#writing-guide)
 
-
-<br>
-
-| 📖 TIL · 개념을 이해한 날 | 🔬 Devlog · 문제를 해결한 날 |
-| :--- | :--- |
-| 배운 개념과 질문, 이해한 답을 짧게 정리합니다. | 문제와 실험, 해결 과정과 배운 점을 자세히 남깁니다. |
+---
 
 <a id="learning-log"></a>
 
-## 📚 Learning Log
+## 학습 기록
 
 <!-- 목차 시작: 기록 머리말 기준으로 갱신합니다. docs/index-format.md 참고. -->
 
-### 최근 기록
+<a id="latest"></a>
 
-- [2026-10-01](./2026-10/2026-10-01.md) · Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증
-- [2026-09-30](./2026-09/2026-09-30.md) · 정상성·ADF·ARIMA의 p·d·q, 예측 검증의 경계와 Career Agent 복구·Hub 표시 개선
-- [2026-09-29](./2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
+### 01 / 최근 기록
 
-### 월별 기록
+**[2026-10-01](./2026-10/2026-10-01.md)** · ML / Stats / DevOps
 
-| 월 | 기록 | 주요 단계 | 월별 목차 |
-| :---: | :---: | :--- | :---: |
-| **2026-08** | 16건 | Python · SQL · Quant · AI | [열기](./2026-08/README.md) |
-| **2026-09** | 23건 | Quant · ML · DevOps · Stats | [열기](./2026-09/README.md) |
-| **2026-10** | 1건 | ML · Stats · DevOps | [열기](./2026-10/README.md) |
+Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증
 
-기록 40건. 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
+**[2026-09-30](./2026-09/2026-09-30.md)** · ML / Stats / DevOps
+
+정상성·ADF·ARIMA의 p·d·q, 예측 검증의 경계와 Career Agent 복구·Hub 표시 개선
+
+**[2026-09-29](./2026-09/2026-09-29.md)** · ML / Stats / Quant / Data Engineering / DevOps / AI DevOps
+
+모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
+
+<a id="archive"></a>
+
+### 02 / 월별 아카이브
+
+| 월 / 목차 | 기록 | 주요 단계 |
+| :--- | :---: | :--- |
+| [**2026-10 →**](./2026-10/README.md) | 1건 | ML · Stats · DevOps |
+| [**2026-09 →**](./2026-09/README.md) | 23건 | Quant · ML · DevOps · Stats |
+| [**2026-08 →**](./2026-08/README.md) | 16건 | Python · SQL · Quant · AI |
+
+**기록 40건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
 
 <!-- 목차 끝 -->
 
 <br>
 
-## 🧰 Toolbox
+## 03 / 기록의 원칙
 
-| 분야 | 기술 및 도구 |
-| :--- | :--- |
-| **Language & Tools** | ![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=flat-square&logo=python&logoColor=white) ![uv](https://img.shields.io/badge/Package_Manager-uv-DE5B43?style=flat-square&logo=rust&logoColor=white) ![VS Code](https://img.shields.io/badge/IDE-VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![Git](https://img.shields.io/badge/VCS-Git-F05032?style=flat-square&logo=git&logoColor=white) |
-| **Database** | ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![DBeaver](https://img.shields.io/badge/Tool-DBeaver-372923?style=flat-square&logo=dbeaver&logoColor=white) |
-| **Analysis & ML** | ![Pandas](https://img.shields.io/badge/Data-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![SciPy](https://img.shields.io/badge/Stats-SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![Scikit_Learn](https://img.shields.io/badge/ML-Scikit_Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) |
-| **Apps & Visualization** | ![Streamlit](https://img.shields.io/badge/App-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Viz-Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![Ollama](https://img.shields.io/badge/Local_AI-Ollama-black?style=flat-square&logo=ollama&logoColor=white) |
-
-<br>
-
-## 💡 학습 및 작성 원칙
+**TIL**은 개념을 이해한 날의 짧은 기록, **Devlog**는 문제와 실험·해결 과정을 자세히 남기는 기록입니다.
 
 1. **배운 만큼 기록하기:** 질문 하나를 이해한 날도 TIL로 남깁니다. 실험이나 트러블슈팅이 없는 날은 해당 항목을 생략합니다.
 2. **사실과 추측 구분하기:** 직접 실행한 결과, AI가 제안한 예시, 아직 확인하지 않은 가설을 구분합니다. 제공되지 않은 수치나 경험을 만들어 넣지 않습니다.
@@ -71,12 +62,12 @@
 
 <a id="writing-guide"></a>
 
-## ✍️ Writing Guide
+## 기록을 남기는 방법
 
 **수업과 질문 → 하루 마무리 요약 → TIL 작성 → 목차 갱신**
 
 <details>
-<summary><strong>📝 하루 기록 흐름과 요약 요청문</strong></summary>
+<summary><strong>하루 기록 흐름과 요약 요청문</strong></summary>
 
 ### 1. 수업과 질문
 
@@ -127,7 +118,7 @@ python tools/build_index.py --check
 </details>
 
 <details>
-<summary><strong>🛠️ 빈 양식 생성 · 직접 작성할 때</strong></summary>
+<summary><strong>빈 양식 생성 · 직접 작성할 때</strong></summary>
 
 AI에게 파일 작성을 맡길 때는 스크립트를 먼저 실행할 필요가 없습니다. 직접 작성할 빈 양식이 필요할 때 저장소 루트에서 실행합니다.
 
@@ -150,7 +141,7 @@ Python 3.10 이상과 표준 라이브러리만 사용합니다. Python 명령�
 </details>
 
 <details>
-<summary><strong>📂 저장소 구조와 목차 관리</strong></summary>
+<summary><strong>저장소 구조와 목차 관리</strong></summary>
 
 ```text
 .
@@ -159,7 +150,8 @@ Python 3.10 이상과 표준 라이브러리만 사용합니다. Python 명령�
 ├── create_til.py             # 빈 TIL 양식 생성 (선택 사항)
 ├── main.py                   # 기존 브랜치 연습 파일
 ├── docs/
-│   ├── assets/               # README 배너
+│   ├── assets/               # README 시각 자산
+│   ├── design-notes.md       # 디자인 원칙·참고 자료·검수
 │   ├── index-format.md       # 직접 편집·도구 공통 목차 기준
 │   └── topics.md             # 주제별 색인
 ├── tools/
@@ -174,6 +166,18 @@ Python 3.10 이상과 표준 라이브러리만 사용합니다. Python 명령�
 각 기록 머리말의 `날짜·단계·주제`가 원본입니다. 목차는 직접 편집하거나 도구로 갱신할 수 있으며,
 어느 방법이든 [목차 갱신 기준](./docs/index-format.md)에 맞춰 원본과 일치시킵니다.
 CI가 기록 수와 순서, 요약, 링크를 포함한 표준 결과와의 일치 여부를 확인합니다.
+
+</details>
+
+<details>
+<summary><strong>04 / 작업 도구</strong></summary>
+
+| 분야 | 기술 및 도구 |
+| :--- | :--- |
+| **Language & Tools** | Python 3.14 · uv · VS Code · Git |
+| **Database** | PostgreSQL · SQLite · DBeaver |
+| **Analysis & ML** | Pandas · SciPy · Scikit-learn |
+| **Apps & Visualization** | Streamlit · Plotly · Ollama |
 
 </details>
 

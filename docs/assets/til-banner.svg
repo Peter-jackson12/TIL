@@ -1,36 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Today I Learned — Data Science &amp; AI</title>
-  <desc id="desc">A navy banner with a connected learning path: Learn, Question, Experiment, Record.</desc>
-  <defs>
-    <linearGradient id="bg" x2="1" y2="1">
-      <stop stop-color="#0f172a"/>
-      <stop offset="1" stop-color="#172d46"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#94a3b8" stroke-opacity=".07"/>
-    </pattern>
-  </defs>
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
-  <circle cx="1110" cy="36" r="175" fill="#38bdf8" opacity=".05"/>
-  <circle cx="1110" cy="36" r="125" fill="none" stroke="#38bdf8" stroke-opacity=".15"/>
-  <g font-family="Segoe UI, Arial, sans-serif">
-    <rect x="56" y="44" width="6" height="20" rx="3" fill="#5eead4"/>
-    <text x="76" y="60" font-size="14" font-weight="600" letter-spacing="3" fill="#5eead4">DATA SCIENCE &amp; AI BOOTCAMP</text>
-    <text x="56" y="136" font-size="58" font-weight="700" letter-spacing="-2" fill="#f8fafc">Today I Learned.</text>
-    <text x="58" y="177" font-size="20" fill="#b8c9dc">Small discoveries. Thoughtful questions. Lasting knowledge.</text>
-    <path d="M68 252H1000" stroke="#36516b" stroke-width="2"/>
-    <g fill="#5eead4">
-      <circle cx="68" cy="252" r="6"/>
-      <circle cx="350" cy="252" r="6"/>
-      <circle cx="645" cy="252" r="6"/>
-      <circle cx="950" cy="252" r="6"/>
-    </g>
-    <g font-size="14" font-weight="600" letter-spacing="2" fill="#dce7f2">
-      <text x="86" y="257">01 / LEARN</text>
-      <text x="368" y="257">02 / QUESTION</text>
-      <text x="663" y="257">03 / EXPERIMENT</text>
-      <text x="968" y="257">04 / RECORD</text>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">TIL. Today I Learned.</title>
+  <desc id="desc">An original editorial journal masthead: vermilion spine, warm paper, oversized black TIL lettering and a hand-drawn asterisk.</desc>
+  <rect width="1200" height="340" fill="#f1eee6"/>
+  <rect width="26" height="340" fill="#df3b26"/>
+  <path d="M56 24H1172M56 316H1172" stroke="#20211f" stroke-width="3"/>
+  <g fill="#20211f" font-family="Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="59" y="113" font-size="60" letter-spacing="-3">TODAY</text>
+    <text x="59" y="181" font-size="60" letter-spacing="-3">I</text>
+    <text x="59" y="249" font-size="60" letter-spacing="-3">LEARNED</text>
+    <text x="395" y="273" font-size="296" letter-spacing="-24">TIL.</text>
+  </g>
+  <g stroke="#df3b26" stroke-width="13" stroke-linecap="square">
+    <path d="M1070 93L1108 191M1040 167L1135 120M1036 108L1137 185"/>
   </g>
 </svg>

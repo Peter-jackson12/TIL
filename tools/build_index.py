@@ -86,26 +86,29 @@ def render_readme_index(entries):
     for entry in entries:
         by_month[entry["month"]].append(entry)
 
-    lines = ["### 최근 기록", ""]
+    lines = ['<a id="latest"></a>', "", "### 01 / 최근 기록", ""]
     for entry in reversed(entries[-3:]):
-        lines.append(
-            f"- [{entry['date']}](./{entry['month']}/{entry['date']}.md) · "
-            f"{shorten(entry['subject'])}"
-        )
+        lines.extend([
+            f"**[{entry['date']}](./{entry['month']}/{entry['date']}.md)** · {entry['stage']}",
+            "",
+            shorten(entry['subject']),
+            "",
+        ])
     lines.extend([
+        '<a id="archive"></a>',
         "",
-        "### 월별 기록",
+        "### 02 / 월별 아카이브",
         "",
-        "| 월 | 기록 | 주요 단계 | 월별 목차 |",
-        "| :---: | :---: | :--- | :---: |",
+        "| 월 / 목차 | 기록 | 주요 단계 |",
+        "| :--- | :---: | :--- |",
     ])
-    for month in sorted(by_month):
+    for month in sorted(by_month, reverse=True):
         group = by_month[month]
         tags = Counter(tag for entry in group for tag in split_tags(entry["stage"]))
         top = " · ".join(tag for tag, _ in tags.most_common(4))
-        lines.append(f"| **{month}** | {len(group)}건 | {top} | [열기](./{month}/README.md) |")
+        lines.append(f"| [**{month} →**](./{month}/README.md) | {len(group)}건 | {top} |")
     lines.append("")
-    lines.append(f"기록 {len(entries)}건. 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.")
+    lines.append(f"**기록 {len(entries)}건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.")
     return "\n".join(lines)
 
 
@@ -121,17 +124,19 @@ def render_month_index(month, group, months):
     lines = [
         f"# {month} 학습 기록",
         "",
+        "**MONTHLY ARCHIVE / 배움의 현장 기록**",
+        "",
         " · ".join(navigation),
         "",
-        f"이 달의 기록 {len(group)}건입니다. 날짜를 누르면 기록을 읽을 수 있습니다.",
+        f"이 달의 기록 **{len(group)}건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.",
         "",
-        "| 날짜 | 단계 | 주제 |",
-        "| :---: | :--- | :--- |",
+        "| 날짜 | 기록 / 단계 |",
+        "| :---: | :--- |",
     ]
-    for entry in group:
+    for entry in reversed(group):
         lines.append(
-            f"| [**{entry['date'][8:]}일**](./{entry['date']}.md) | {entry['stage']} | "
-            f"{shorten(entry['subject'])} |"
+            f"| [**{entry['date'][8:]}일**](./{entry['date']}.md) | "
+            f"{shorten(entry['subject'])}<br>{entry['stage']} |"
         )
     lines.append("")
     return "\n".join(lines)
@@ -147,6 +152,8 @@ def render_topics(entries):
     lines = [
         "# 주제별 색인",
         "",
+        "**SUBJECT INDEX / 날짜 대신 주제로 찾기**",
+        "",
         "[전체 목차로 돌아가기](../README.md#learning-log)",
         "",
         "날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.",
@@ -157,8 +164,9 @@ def render_topics(entries):
     ]
     for i, tag in enumerate(ordered_tags, 1):
         group = topics[tag]
-        links = " · ".join(
-            f"[{e['date'][5:]}](../{e['month']}/{e['date']}.md)" for e in group
+        links = "\n".join(
+            f"- [{e['date']}](../{e['month']}/{e['date']}.md) · {shorten(e['subject'])}"
+            for e in reversed(group)
         )
         lines.append(f'<a id="topic-{i}"></a>')
         lines.append("")
