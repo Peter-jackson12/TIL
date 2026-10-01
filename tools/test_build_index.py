@@ -12,7 +12,7 @@ def entry(date, stage="ML", subject="배운 내용"):
 class IndexTests(unittest.TestCase):
     def test_recent_three_newest_first(self):
         entries = [entry(f"2026-09-{day:02}") for day in range(1, 5)]
-        recent = index.render_readme_index(entries).split("### 02 / 월별 아카이브")[0]
+        recent = index.render_readme_index(entries).split("## 02 / 월별 아카이브")[0]
         self.assertNotIn("2026-09-01", recent)
         self.assertLess(recent.index("2026-09-04"), recent.index("2026-09-03"))
         self.assertLess(recent.index("2026-09-03"), recent.index("2026-09-02"))
@@ -50,7 +50,7 @@ class IndexTests(unittest.TestCase):
 
     def test_month_archive_is_newest_first(self):
         text = index.render_readme_index([entry("2026-08-01"), entry("2026-09-01")])
-        archive = text.split("### 02 / 월별 아카이브")[1]
+        archive = text.split("## 02 / 월별 아카이브")[1]
         self.assertLess(archive.index("2026-09"), archive.index("2026-08"))
         self.assertIn("| [**2026-09 →**](./2026-09/README.md) | 1건 | ML |", archive)
 

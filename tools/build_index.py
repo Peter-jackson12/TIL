@@ -86,7 +86,7 @@ def render_readme_index(entries):
     for entry in entries:
         by_month[entry["month"]].append(entry)
 
-    lines = ['<a id="latest"></a>', "", "### 01 / 최근 기록", ""]
+    lines = ['<a id="latest"></a>', "", "## 01 / 최근 기록", ""]
     for entry in reversed(entries[-3:]):
         lines.extend([
             f"**[{entry['date']}](./{entry['month']}/{entry['date']}.md)** · {entry['stage']}",
@@ -97,7 +97,7 @@ def render_readme_index(entries):
     lines.extend([
         '<a id="archive"></a>',
         "",
-        "### 02 / 월별 아카이브",
+        "## 02 / 월별 아카이브",
         "",
         "| 월 / 목차 | 기록 | 주요 단계 |",
         "| :--- | :---: | :--- |",
