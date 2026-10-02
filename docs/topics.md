@@ -7,7 +7,7 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[Quant (23)](#topic-1) · [ML (14)](#topic-2) · [Stats (14)](#topic-3) · [DevOps (13)](#topic-4) · [Data Engineering (10)](#topic-5) · [Python (10)](#topic-6) · [AI DevOps (9)](#topic-7) · [SQL (9)](#topic-8) · [OOP (3)](#topic-9) · [Product Analytics (3)](#topic-10) · [AI (2)](#topic-11) · [Algo (2)](#topic-12) · [A-B Test (1)](#topic-13) · [Data (1)](#topic-14) · [EDA (1)](#topic-15) · [Git (1)](#topic-16) · [Infra (1)](#topic-17) · [Microstructure (1)](#topic-18) · [OR (1)](#topic-19) · [Pandas (1)](#topic-20) · [Tools (1)](#topic-21) · [Viz (1)](#topic-22)
+[Quant (23)](#topic-1) · [ML (15)](#topic-2) · [Stats (15)](#topic-3) · [DevOps (13)](#topic-4) · [Data Engineering (10)](#topic-5) · [Python (10)](#topic-6) · [AI DevOps (9)](#topic-7) · [SQL (9)](#topic-8) · [OOP (3)](#topic-9) · [Product Analytics (3)](#topic-10) · [AI (2)](#topic-11) · [Algo (2)](#topic-12) · [A-B Test (1)](#topic-13) · [Data (1)](#topic-14) · [EDA (1)](#topic-15) · [Git (1)](#topic-16) · [Infra (1)](#topic-17) · [Microstructure (1)](#topic-18) · [OR (1)](#topic-19) · [Pandas (1)](#topic-20) · [Tools (1)](#topic-21) · [Viz (1)](#topic-22)
 
 <a id="topic-1"></a>
 
@@ -39,8 +39,9 @@
 
 <a id="topic-2"></a>
 
-### ML (14건)
+### ML (15건)
 
+- [2026-10-02](../2026-10/2026-10-02.md) · 학습곡선·규제 alpha와 l1_ratio, 불균형 분류 지표·임계값·교차검증의 누수 경계
 - [2026-10-01](../2026-10/2026-10-01.md) · Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증
 - [2026-09-30](../2026-09/2026-09-30.md) · 정상성·ADF·ARIMA의 p·d·q, 예측 검증의 경계와 Career Agent 복구·Hub 표시 개선
 - [2026-09-29](../2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
@@ -58,8 +59,9 @@
 
 <a id="topic-3"></a>
 
-### Stats (14건)
+### Stats (15건)
 
+- [2026-10-02](../2026-10/2026-10-02.md) · 학습곡선·규제 alpha와 l1_ratio, 불균형 분류 지표·임계값·교차검증의 누수 경계
 - [2026-10-01](../2026-10/2026-10-01.md) · Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증
 - [2026-09-30](../2026-09/2026-09-30.md) · 정상성·ADF·ARIMA의 p·d·q, 예측 검증의 경계와 Career Agent 복구·Hub 표시 개선
 - [2026-09-29](../2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획

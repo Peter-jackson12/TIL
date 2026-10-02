@@ -21,6 +21,10 @@
 
 ## 01 / 최근 기록
 
+**[2026-10-02](./2026-10/2026-10-02.md)** · ML / Stats
+
+학습곡선·규제 alpha와 l1_ratio, 불균형 분류 지표·임계값·교차검증의 누수 경계
+
 **[2026-10-01](./2026-10/2026-10-01.md)** · ML / Stats / DevOps
 
 Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증
@@ -29,21 +33,17 @@ Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplan
 
 정상성·ADF·ARIMA의 p·d·q, 예측 검증의 경계와 Career Agent 복구·Hub 표시 개선
 
-**[2026-09-29](./2026-09/2026-09-29.md)** · ML / Stats / Quant / Data Engineering / DevOps / AI DevOps
-
-모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
-
 <a id="archive"></a>
 
 ## 02 / 월별 아카이브
 
 | 월 / 목차 | 기록 | 주요 단계 |
 | :--- | :---: | :--- |
-| [**2026-10 →**](./2026-10/README.md) | 1건 | ML · Stats · DevOps |
+| [**2026-10 →**](./2026-10/README.md) | 2건 | ML · Stats · DevOps |
 | [**2026-09 →**](./2026-09/README.md) | 23건 | Quant · ML · DevOps · Stats |
 | [**2026-08 →**](./2026-08/README.md) | 16건 | Python · SQL · Quant · AI |
 
-**기록 40건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
+**기록 41건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
 
 <!-- 목차 끝 -->
 
