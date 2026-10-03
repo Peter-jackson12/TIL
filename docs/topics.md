@@ -7,7 +7,7 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[Quant (23)](#topic-1) · [ML (15)](#topic-2) · [Stats (15)](#topic-3) · [DevOps (13)](#topic-4) · [Data Engineering (10)](#topic-5) · [Python (10)](#topic-6) · [AI DevOps (9)](#topic-7) · [SQL (9)](#topic-8) · [OOP (3)](#topic-9) · [Product Analytics (3)](#topic-10) · [AI (2)](#topic-11) · [Algo (2)](#topic-12) · [A-B Test (1)](#topic-13) · [Data (1)](#topic-14) · [EDA (1)](#topic-15) · [Git (1)](#topic-16) · [Infra (1)](#topic-17) · [Microstructure (1)](#topic-18) · [OR (1)](#topic-19) · [Pandas (1)](#topic-20) · [Tools (1)](#topic-21) · [Viz (1)](#topic-22)
+[Quant (23)](#topic-1) · [ML (15)](#topic-2) · [Stats (15)](#topic-3) · [DevOps (14)](#topic-4) · [Data Engineering (10)](#topic-5) · [Python (10)](#topic-6) · [AI DevOps (9)](#topic-7) · [SQL (9)](#topic-8) · [OOP (3)](#topic-9) · [Product Analytics (3)](#topic-10) · [AI (2)](#topic-11) · [Algo (2)](#topic-12) · [Git (2)](#topic-13) · [A-B Test (1)](#topic-14) · [Data (1)](#topic-15) · [EDA (1)](#topic-16) · [Infra (1)](#topic-17) · [Microstructure (1)](#topic-18) · [OR (1)](#topic-19) · [Pandas (1)](#topic-20) · [Tools (1)](#topic-21) · [Viz (1)](#topic-22)
 
 <a id="topic-1"></a>
 
@@ -79,8 +79,9 @@
 
 <a id="topic-4"></a>
 
-### DevOps (13건)
+### DevOps (14건)
 
+- [2026-10-03](../2026-10/2026-10-03.md) · Git blob·tree·commit·브랜치의 역할, README 애니메이션과 최종 커밋 검증
 - [2026-10-01](../2026-10/2026-10-01.md) · Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증
 - [2026-09-30](../2026-09/2026-09-30.md) · 정상성·ADF·ARIMA의 p·d·q, 예측 검증의 경계와 Career Agent 복구·Hub 표시 개선
 - [2026-09-29](../2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
@@ -185,27 +186,28 @@
 
 <a id="topic-13"></a>
 
+### Git (2건)
+
+- [2026-10-03](../2026-10/2026-10-03.md) · Git blob·tree·commit·브랜치의 역할, README 애니메이션과 최종 커밋 검증
+- [2026-08-06](../2026-08/2026-08-06.md) · 브랜치·병합·Rebase·충돌, uv 환경 및 주피터 연동
+
+<a id="topic-14"></a>
+
 ### A-B Test (1건)
 
 - [2026-09-17](../2026-09/2026-09-17.md) · Pearson·단순회귀 $R^2$ 수리 연결, Cookie Cats A/B 랜덤화·SRM 진단과 MDE-Power 표본설계, Stock NXT venue 판정·…
 
-<a id="topic-14"></a>
+<a id="topic-15"></a>
 
 ### Data (1건)
 
 - [2026-09-08](../2026-09/2026-09-08.md) · 100만 행 불균형 분류 6단계 진화(Threshold 0.22 튜닝·비대칭 Pseudo-Labeling 8.9만 건 증강·시간 역산 복원), K-Means 거…
 
-<a id="topic-15"></a>
+<a id="topic-16"></a>
 
 ### EDA (1건)
 
 - [2026-08-25](../2026-08/2026-08-25.md) · Pandas 다중 집계(`agg`/`pivot_table`), `str.split`/`rrule` 시계열 생성, Git 스냅샷 원리, EDA 이상치(IQR vs…
-
-<a id="topic-16"></a>
-
-### Git (1건)
-
-- [2026-08-06](../2026-08/2026-08-06.md) · 브랜치·병합·Rebase·충돌, uv 환경 및 주피터 연동
 
 <a id="topic-17"></a>
 
