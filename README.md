@@ -21,6 +21,10 @@
 
 ## 01 / 최근 기록
 
+**[2026-10-04](./2026-10/2026-10-04.md)** · ML / Stats
+
+Lasso의 변수 선택과 표본 필터링·탐색 공간 축소의 차이, 시간순 검증과 과적합
+
 **[2026-10-03](./2026-10/2026-10-03.md)** · Git / DevOps
 
 Git blob·tree·commit·브랜치의 역할, README 애니메이션과 최종 커밋 검증
@@ -29,21 +33,17 @@ Git blob·tree·commit·브랜치의 역할, README 애니메이션과 최종 �
 
 학습곡선·규제 alpha와 l1_ratio, 불균형 분류 지표·임계값·교차검증의 누수 경계
 
-**[2026-10-01](./2026-10/2026-10-01.md)** · ML / Stats / DevOps
-
-Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증
-
 <a id="archive"></a>
 
 ## 02 / 월별 아카이브
 
 | 월 / 목차 | 기록 | 주요 단계 |
 | :--- | :---: | :--- |
-| [**2026-10 →**](./2026-10/README.md) | 3건 | ML · Stats · DevOps · Git |
+| [**2026-10 →**](./2026-10/README.md) | 4건 | ML · Stats · DevOps · Git |
 | [**2026-09 →**](./2026-09/README.md) | 23건 | Quant · ML · DevOps · Stats |
 | [**2026-08 →**](./2026-08/README.md) | 16건 | Python · SQL · Quant · AI |
 
-**기록 42건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
+**기록 43건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
 
 <!-- 목차 끝 -->
 
