@@ -21,6 +21,10 @@
 
 ## 01 / 최근 기록
 
+**[2026-10-08](./2026-10/2026-10-08.md)** · BI / Viz / ML / Stats / SQL / Algo
+
+Tableau 집계·LOD·테이블 계산, CV 탐색과 Optuna, 그래프 연결 요소와 대시보드 게시
+
 **[2026-10-07](./2026-10/2026-10-07.md)** · ML / Stats / Python / Product Analytics
 
 CV·Pipeline과 데이터 문제 해결, 배깅·부스팅 실습, OOF·Macro F1·날씨 가용성 해석
@@ -29,21 +33,17 @@ CV·Pipeline과 데이터 문제 해결, 배깅·부스팅 실습, OOF·Macro F1
 
 Airplane 발표 해설: 타깃 인코딩·내부 선택과 OOF, 동일집단 비교와 검증 범위
 
-**[2026-10-04](./2026-10/2026-10-04.md)** · ML / Stats
-
-Lasso의 변수 선택과 표본 필터링·탐색 공간 축소의 차이, 시간순 검증과 과적합
-
 <a id="archive"></a>
 
 ## 02 / 월별 아카이브
 
 | 월 / 목차 | 기록 | 주요 단계 |
 | :--- | :---: | :--- |
-| [**2026-10 →**](./2026-10/README.md) | 6건 | ML · Stats · DevOps · Git |
+| [**2026-10 →**](./2026-10/README.md) | 7건 | ML · Stats · DevOps · Git |
 | [**2026-09 →**](./2026-09/README.md) | 23건 | Quant · ML · DevOps · Stats |
 | [**2026-08 →**](./2026-08/README.md) | 16건 | Python · SQL · Quant · AI |
 
-**기록 45건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
+**기록 46건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
 
 <!-- 목차 끝 -->
 
