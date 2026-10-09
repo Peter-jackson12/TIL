@@ -4,10 +4,11 @@
 
 [전체 목차](../README.md#learning-log) · [주제별 색인](../docs/topics.md) · [← 2026-09](../2026-09/README.md)
 
-이 달의 기록 **7건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
+이 달의 기록 **8건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
 
 | 일 | 기록 / 단계 |
 | :---: | :--- |
+| [**09**](./2026-10-09.md) | 근거 수준과 검토 시점 구분, 포트폴리오 디자인·접근성, UTF-8 SVG와 병합 후 CI 검증<br>DevOps / Git / Viz |
 | [**08**](./2026-10-08.md) | Tableau 집계·LOD·테이블 계산, CV 탐색과 Optuna, 그래프 연결 요소와 대시보드 게시<br>BI / Viz / ML / Stats / SQL / Algo |
 | [**07**](./2026-10-07.md) | CV·Pipeline과 데이터 문제 해결, 배깅·부스팅 실습, OOF·Macro F1·날씨 가용성 해석<br>ML / Stats / Python / Product Analytics |
 | [**05**](./2026-10-05.md) | Airplane 발표 해설: 타깃 인코딩·내부 선택과 OOF, 동일집단 비교와 검증 범위<br>ML / Stats / DevOps |
