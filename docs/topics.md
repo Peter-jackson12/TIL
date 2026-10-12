@@ -7,7 +7,7 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[Quant (23)](#topic-1) · [ML (19)](#topic-2) · [Stats (19)](#topic-3) · [DevOps (16)](#topic-4) · [Python (11)](#topic-5) · [Data Engineering (10)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Product Analytics (4)](#topic-9) · [Algo (3)](#topic-10) · [Git (3)](#topic-11) · [OOP (3)](#topic-12) · [Viz (3)](#topic-13) · [AI (2)](#topic-14) · [A-B Test (1)](#topic-15) · [BI (1)](#topic-16) · [Data (1)](#topic-17) · [EDA (1)](#topic-18) · [Infra (1)](#topic-19) · [Microstructure (1)](#topic-20) · [OR (1)](#topic-21) · [Pandas (1)](#topic-22) · [Tools (1)](#topic-23)
+[Quant (23)](#topic-1) · [ML (19)](#topic-2) · [Stats (19)](#topic-3) · [DevOps (17)](#topic-4) · [Python (11)](#topic-5) · [Data Engineering (10)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Product Analytics (5)](#topic-9) · [Algo (4)](#topic-10) · [Viz (4)](#topic-11) · [AI (3)](#topic-12) · [Git (3)](#topic-13) · [OOP (3)](#topic-14) · [BI (2)](#topic-15) · [A-B Test (1)](#topic-16) · [Data (1)](#topic-17) · [EDA (1)](#topic-18) · [Infra (1)](#topic-19) · [Microstructure (1)](#topic-20) · [OR (1)](#topic-21) · [Pandas (1)](#topic-22) · [Tools (1)](#topic-23)
 
 <a id="topic-1"></a>
 
@@ -87,8 +87,9 @@
 
 <a id="topic-4"></a>
 
-### DevOps (16건)
+### DevOps (17건)
 
+- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
 - [2026-10-09](../2026-10/2026-10-09.md) · 근거 수준과 검토 시점 구분, 포트폴리오 디자인·접근성, UTF-8 SVG와 병합 후 CI 검증
 - [2026-10-05](../2026-10/2026-10-05.md) · Airplane 발표 해설: 타깃 인코딩·내부 선택과 OOF, 동일집단 비교와 검증 범위
 - [2026-10-03](../2026-10/2026-10-03.md) · Git blob·tree·commit·브랜치의 역할, README 애니메이션과 최종 커밋 검증
@@ -168,8 +169,9 @@
 
 <a id="topic-9"></a>
 
-### Product Analytics (4건)
+### Product Analytics (5건)
 
+- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
 - [2026-10-07](../2026-10/2026-10-07.md) · CV·Pipeline과 데이터 문제 해결, 배깅·부스팅 실습, OOF·Macro F1·날씨 가용성 해석
 - [2026-09-22](../2026-09/2026-09-22.md) · 프로덕트 분석 문제정의·퍼널/리텐션·A/B 실험 설계, Stock/Airplane 검증, career-agent 근거 기반 자동화
 - [2026-09-21](../2026-09/2026-09-21.md) · 리텐션·퍼널·A/B 실험 설계와 Ridge/Lasso 복습, product_2 과제 검토, Stock/Airplane 운영 안정화
@@ -177,13 +179,31 @@
 
 <a id="topic-10"></a>
 
-### Algo (3건)
+### Algo (4건)
 
+- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
 - [2026-10-08](../2026-10/2026-10-08.md) · Tableau 집계·LOD·테이블 계산, CV 탐색과 Optuna, 그래프 연결 요소와 대시보드 게시
 - [2026-09-16](../2026-09/2026-09-16.md) · 통계 검정·Pearson·OLS 수리 이해, 항공 지연 OOF·결측 오류 분석, 틱 수집 컨트롤 타워 구현 및 검증
 - [2026-09-02](../2026-09/2026-09-02.md) · 이분 탐색(Binary Search)과 DB 인덱스(B+Tree), 원-핫 인코딩과 경사하강법의 수리적 결합, OLS 회귀식 증명(SSE vs 잔차합), RTX…
 
 <a id="topic-11"></a>
+
+### Viz (4건)
+
+- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
+- [2026-10-09](../2026-10/2026-10-09.md) · 근거 수준과 검토 시점 구분, 포트폴리오 디자인·접근성, UTF-8 SVG와 병합 후 CI 검증
+- [2026-10-08](../2026-10/2026-10-08.md) · Tableau 집계·LOD·테이블 계산, CV 탐색과 Optuna, 그래프 연결 요소와 대시보드 게시
+- [2026-08-27](../2026-08/2026-08-27.md) · Python 3.14 데이터 시각화 프레임워크, Matplotlib/Seaborn OOP 메커니즘, AI 코딩 에이전트(Cline/MCP/Ollama) 파이프라…
+
+<a id="topic-12"></a>
+
+### AI (3건)
+
+- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
+- [2026-08-27](../2026-08/2026-08-27.md) · Python 3.14 데이터 시각화 프레임워크, Matplotlib/Seaborn OOP 메커니즘, AI 코딩 에이전트(Cline/MCP/Ollama) 파이프라…
+- [2026-08-05](../2026-08/2026-08-05.md) · 생성형 AI·LLM, 프롬프트 구성 및 책임 있는 AI 활용
+
+<a id="topic-13"></a>
 
 ### Git (3건)
 
@@ -191,7 +211,7 @@
 - [2026-10-03](../2026-10/2026-10-03.md) · Git blob·tree·commit·브랜치의 역할, README 애니메이션과 최종 커밋 검증
 - [2026-08-06](../2026-08/2026-08-06.md) · 브랜치·병합·Rebase·충돌, uv 환경 및 주피터 연동
 
-<a id="topic-12"></a>
+<a id="topic-14"></a>
 
 ### OOP (3건)
 
@@ -199,32 +219,18 @@
 - [2026-08-14](../2026-08/2026-08-14.md) · OOP 매직 메서드(`__str__`), `iloc[0]` 파이프라인 인덱싱, 조건식 단락 평가 최적화, Git Detached HEAD 복구
 - [2026-08-13](../2026-08/2026-08-13.md) · 예외 처리(`try-except`), 비주얼 디버거(`Debug Cell`), 클래스(`OOP`), 퀀트 엔진 디버깅 및 한글 종목명 매핑
 
-<a id="topic-13"></a>
-
-### Viz (3건)
-
-- [2026-10-09](../2026-10/2026-10-09.md) · 근거 수준과 검토 시점 구분, 포트폴리오 디자인·접근성, UTF-8 SVG와 병합 후 CI 검증
-- [2026-10-08](../2026-10/2026-10-08.md) · Tableau 집계·LOD·테이블 계산, CV 탐색과 Optuna, 그래프 연결 요소와 대시보드 게시
-- [2026-08-27](../2026-08/2026-08-27.md) · Python 3.14 데이터 시각화 프레임워크, Matplotlib/Seaborn OOP 메커니즘, AI 코딩 에이전트(Cline/MCP/Ollama) 파이프라…
-
-<a id="topic-14"></a>
-
-### AI (2건)
-
-- [2026-08-27](../2026-08/2026-08-27.md) · Python 3.14 데이터 시각화 프레임워크, Matplotlib/Seaborn OOP 메커니즘, AI 코딩 에이전트(Cline/MCP/Ollama) 파이프라…
-- [2026-08-05](../2026-08/2026-08-05.md) · 생성형 AI·LLM, 프롬프트 구성 및 책임 있는 AI 활용
-
 <a id="topic-15"></a>
+
+### BI (2건)
+
+- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
+- [2026-10-08](../2026-10/2026-10-08.md) · Tableau 집계·LOD·테이블 계산, CV 탐색과 Optuna, 그래프 연결 요소와 대시보드 게시
+
+<a id="topic-16"></a>
 
 ### A-B Test (1건)
 
 - [2026-09-17](../2026-09/2026-09-17.md) · Pearson·단순회귀 $R^2$ 수리 연결, Cookie Cats A/B 랜덤화·SRM 진단과 MDE-Power 표본설계, Stock NXT venue 판정·…
-
-<a id="topic-16"></a>
-
-### BI (1건)
-
-- [2026-10-08](../2026-10/2026-10-08.md) · Tableau 집계·LOD·테이블 계산, CV 탐색과 Optuna, 그래프 연결 요소와 대시보드 게시
 
 <a id="topic-17"></a>
 

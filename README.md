@@ -21,6 +21,10 @@
 
 ## 01 / 최근 기록
 
+**[2026-10-12](./2026-10/2026-10-12.md)** · BI / Viz / Algo / AI / DevOps / Product Analytics
+
+Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
+
 **[2026-10-09](./2026-10/2026-10-09.md)** · DevOps / Git / Viz
 
 근거 수준과 검토 시점 구분, 포트폴리오 디자인·접근성, UTF-8 SVG와 병합 후 CI 검증
@@ -29,21 +33,17 @@
 
 Tableau 집계·LOD·테이블 계산, CV 탐색과 Optuna, 그래프 연결 요소와 대시보드 게시
 
-**[2026-10-07](./2026-10/2026-10-07.md)** · ML / Stats / Python / Product Analytics
-
-CV·Pipeline과 데이터 문제 해결, 배깅·부스팅 실습, OOF·Macro F1·날씨 가용성 해석
-
 <a id="archive"></a>
 
 ## 02 / 월별 아카이브
 
 | 월 / 목차 | 기록 | 주요 단계 |
 | :--- | :---: | :--- |
-| [**2026-10 →**](./2026-10/README.md) | 8건 | ML · Stats · DevOps · Git |
+| [**2026-10 →**](./2026-10/README.md) | 9건 | ML · Stats · DevOps · Viz |
 | [**2026-09 →**](./2026-09/README.md) | 23건 | Quant · ML · DevOps · Stats |
 | [**2026-08 →**](./2026-08/README.md) | 16건 | Python · SQL · Quant · AI |
 
-**기록 47건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
+**기록 48건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
 
 <!-- 목차 끝 -->
 
