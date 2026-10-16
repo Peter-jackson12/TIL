@@ -7,12 +7,13 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[Quant (23)](#topic-1) · [ML (22)](#topic-2) · [Stats (22)](#topic-3) · [DevOps (20)](#topic-4) · [Python (11)](#topic-5) · [Data Engineering (10)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (5)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Viz (4)](#topic-13) · [AI (3)](#topic-14) · [OOP (3)](#topic-15) · [BI (2)](#topic-16) · [A-B Test (1)](#topic-17) · [Data (1)](#topic-18) · [Infra (1)](#topic-19) · [Microstructure (1)](#topic-20) · [OR (1)](#topic-21) · [Pandas (1)](#topic-22) · [Tools (1)](#topic-23)
+[Quant (24)](#topic-1) · [ML (22)](#topic-2) · [Stats (22)](#topic-3) · [DevOps (21)](#topic-4) · [Python (11)](#topic-5) · [Data Engineering (10)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (5)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Viz (4)](#topic-13) · [AI (3)](#topic-14) · [OOP (3)](#topic-15) · [BI (2)](#topic-16) · [A-B Test (1)](#topic-17) · [Data (1)](#topic-18) · [Infra (1)](#topic-19) · [Microstructure (1)](#topic-20) · [OR (1)](#topic-21) · [Pandas (1)](#topic-22) · [Tools (1)](#topic-23)
 
 <a id="topic-1"></a>
 
-### Quant (23건)
+### Quant (24건)
 
+- [2026-10-16](../2026-10/2026-10-16.md) · Claude Code 세션 압축·기록 보존, NXT 수능일 거래시간 예외 확인
 - [2026-09-29](../2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
 - [2026-09-28](../2026-09/2026-09-28.md) · MWFD Stage E·강제청산 검증·KRX/NXT dual 수집, Career Hub 통합
 - [2026-09-27](../2026-09/2026-09-27.md) · MWFD Stage C/D·dual collector smoke, Career eligibility v2·Practical Fit shadow 검증
@@ -93,8 +94,9 @@
 
 <a id="topic-4"></a>
 
-### DevOps (20건)
+### DevOps (21건)
 
+- [2026-10-16](../2026-10/2026-10-16.md) · Claude Code 세션 압축·기록 보존, NXT 수능일 거래시간 예외 확인
 - [2026-10-15](../2026-10/2026-10-15.md) · 타깃 누수와 학습·검증 경계, 피처 설계·지표 교환관계, Git fetch와 PR 협업
 - [2026-10-14](../2026-10/2026-10-14.md) · 연속 구간 완전탐색, 지진 파생변수 5종과 지역 Group CV, 재현·검증 근거 구분
 - [2026-10-13](../2026-10/2026-10-13.md) · 지진 피해 분류 문제 정의, age=995 이상치 판단, 불균형 지표·홀드아웃 경계와 팀 협업
