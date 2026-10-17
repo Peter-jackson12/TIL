@@ -7,12 +7,13 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[Quant (24)](#topic-1) · [ML (22)](#topic-2) · [Stats (22)](#topic-3) · [DevOps (21)](#topic-4) · [Python (11)](#topic-5) · [Data Engineering (10)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (5)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Viz (4)](#topic-13) · [AI (3)](#topic-14) · [OOP (3)](#topic-15) · [BI (2)](#topic-16) · [A-B Test (1)](#topic-17) · [Data (1)](#topic-18) · [Infra (1)](#topic-19) · [Microstructure (1)](#topic-20) · [OR (1)](#topic-21) · [Pandas (1)](#topic-22) · [Tools (1)](#topic-23)
+[Quant (25)](#topic-1) · [DevOps (22)](#topic-2) · [ML (22)](#topic-3) · [Stats (22)](#topic-4) · [Python (11)](#topic-5) · [Data Engineering (10)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (5)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Viz (4)](#topic-13) · [AI (3)](#topic-14) · [OOP (3)](#topic-15) · [BI (2)](#topic-16) · [A-B Test (1)](#topic-17) · [Data (1)](#topic-18) · [Infra (1)](#topic-19) · [Microstructure (1)](#topic-20) · [OR (1)](#topic-21) · [Pandas (1)](#topic-22) · [Tools (1)](#topic-23)
 
 <a id="topic-1"></a>
 
-### Quant (24건)
+### Quant (25건)
 
+- [2026-10-17](../2026-10/2026-10-17.md) · GitHub CI 호환 점검과 느린 테스트 분리, 대시보드 접근 통제 복구, AUTO-02 측정 스크립트 추가
 - [2026-10-16](../2026-10/2026-10-16.md) · Claude Code 세션 압축·기록 보존, NXT 수능일 거래시간 예외 확인
 - [2026-09-29](../2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
 - [2026-09-28](../2026-09/2026-09-28.md) · MWFD Stage E·강제청산 검증·KRX/NXT dual 수집, Career Hub 통합
@@ -40,6 +41,33 @@
 
 <a id="topic-2"></a>
 
+### DevOps (22건)
+
+- [2026-10-17](../2026-10/2026-10-17.md) · GitHub CI 호환 점검과 느린 테스트 분리, 대시보드 접근 통제 복구, AUTO-02 측정 스크립트 추가
+- [2026-10-16](../2026-10/2026-10-16.md) · Claude Code 세션 압축·기록 보존, NXT 수능일 거래시간 예외 확인
+- [2026-10-15](../2026-10/2026-10-15.md) · 타깃 누수와 학습·검증 경계, 피처 설계·지표 교환관계, Git fetch와 PR 협업
+- [2026-10-14](../2026-10/2026-10-14.md) · 연속 구간 완전탐색, 지진 파생변수 5종과 지역 Group CV, 재현·검증 근거 구분
+- [2026-10-13](../2026-10/2026-10-13.md) · 지진 피해 분류 문제 정의, age=995 이상치 판단, 불균형 지표·홀드아웃 경계와 팀 협업
+- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
+- [2026-10-09](../2026-10/2026-10-09.md) · 근거 수준과 검토 시점 구분, 포트폴리오 디자인·접근성, UTF-8 SVG와 병합 후 CI 검증
+- [2026-10-05](../2026-10/2026-10-05.md) · Airplane 발표 해설: 타깃 인코딩·내부 선택과 OOF, 동일집단 비교와 검증 범위
+- [2026-10-03](../2026-10/2026-10-03.md) · Git blob·tree·commit·브랜치의 역할, README 애니메이션과 최종 커밋 검증
+- [2026-10-01](../2026-10/2026-10-01.md) · Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증
+- [2026-09-30](../2026-09/2026-09-30.md) · 정상성·ADF·ARIMA의 p·d·q, 예측 검증의 경계와 Career Agent 복구·Hub 표시 개선
+- [2026-09-29](../2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
+- [2026-09-28](../2026-09/2026-09-28.md) · MWFD Stage E·강제청산 검증·KRX/NXT dual 수집, Career Hub 통합
+- [2026-09-27](../2026-09/2026-09-27.md) · MWFD Stage C/D·dual collector smoke, Career eligibility v2·Practical Fit shadow 검증
+- [2026-09-26](../2026-09/2026-09-26.md) · MWFD-04 전체 실행·파이프라인 감사 remediation, Career Tavily·출처 provenance 계약
+- [2026-09-25](../2026-09/2026-09-25.md) · Fast Backtest v1·Operator 실행 준비, Career matcher v2·daily operator 전환
+- [2026-09-24](../2026-09/2026-09-24.md) · Stock 포트폴리오·bounded prefix·frozen snapshot 안전 경계, Career System 검증·profile snapshot
+- [2026-09-22](../2026-09/2026-09-22.md) · 프로덕트 분석 문제정의·퍼널/리텐션·A/B 실험 설계, Stock/Airplane 검증, career-agent 근거 기반 자동화
+- [2026-09-21](../2026-09/2026-09-21.md) · 리텐션·퍼널·A/B 실험 설계와 Ridge/Lasso 복습, product_2 과제 검토, Stock/Airplane 운영 안정화
+- [2026-09-20](../2026-09/2026-09-20.md) · Stock 실데이터 후보 선정 보류와 clean 세션 우선 결정, Airplane Git-only/로컬 검증 분리·날씨 수집 재개 예산 계약, GitHub 플러…
+- [2026-09-01](../2026-09/2026-09-01.md) · ML 파이프라인(Logistic Regression vs LightGBM), 분류 임계값(Threshold) 최적화, OR(운영연구) 기반 최적화, Cline-…
+- [2026-08-31](../2026-08/2026-08-31.md) · 통계학 수리적 본질 증명(이항분포 분산·자유도·IEEE 754 극단값 SF), Python set 해시 비결정론, uv 모노레포 가상환경 아키텍처, Postgr…
+
+<a id="topic-3"></a>
+
 ### ML (22건)
 
 - [2026-10-15](../2026-10/2026-10-15.md) · 타깃 누수와 학습·검증 경계, 피처 설계·지표 교환관계, Git fetch와 PR 협업
@@ -65,7 +93,7 @@
 - [2026-09-02](../2026-09/2026-09-02.md) · 이분 탐색(Binary Search)과 DB 인덱스(B+Tree), 원-핫 인코딩과 경사하강법의 수리적 결합, OLS 회귀식 증명(SSE vs 잔차합), RTX…
 - [2026-09-01](../2026-09/2026-09-01.md) · ML 파이프라인(Logistic Regression vs LightGBM), 분류 임계값(Threshold) 최적화, OR(운영연구) 기반 최적화, Cline-…
 
-<a id="topic-3"></a>
+<a id="topic-4"></a>
 
 ### Stats (22건)
 
@@ -91,32 +119,6 @@
 - [2026-09-04](../2026-09/2026-09-04.md) · 선형·로지스틱 회귀 학습 엔진(OLS vs GD vs LP), 정규화(L1/L2)와 하이퍼파라미터 튜닝(GridSearchCV), 분류 평가지표의 역설(기상청…
 - [2026-08-31](../2026-08/2026-08-31.md) · 통계학 수리적 본질 증명(이항분포 분산·자유도·IEEE 754 극단값 SF), Python set 해시 비결정론, uv 모노레포 가상환경 아키텍처, Postgr…
 - [2026-08-28](../2026-08/2026-08-28.md) · KRX 70만 행 전처리 파이프라인 완성, Day & Night Anomaly(Overnight Alpha) 실증, 통계학 자유도($df$)와 베이즈 정리의 본…
-
-<a id="topic-4"></a>
-
-### DevOps (21건)
-
-- [2026-10-16](../2026-10/2026-10-16.md) · Claude Code 세션 압축·기록 보존, NXT 수능일 거래시간 예외 확인
-- [2026-10-15](../2026-10/2026-10-15.md) · 타깃 누수와 학습·검증 경계, 피처 설계·지표 교환관계, Git fetch와 PR 협업
-- [2026-10-14](../2026-10/2026-10-14.md) · 연속 구간 완전탐색, 지진 파생변수 5종과 지역 Group CV, 재현·검증 근거 구분
-- [2026-10-13](../2026-10/2026-10-13.md) · 지진 피해 분류 문제 정의, age=995 이상치 판단, 불균형 지표·홀드아웃 경계와 팀 협업
-- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
-- [2026-10-09](../2026-10/2026-10-09.md) · 근거 수준과 검토 시점 구분, 포트폴리오 디자인·접근성, UTF-8 SVG와 병합 후 CI 검증
-- [2026-10-05](../2026-10/2026-10-05.md) · Airplane 발표 해설: 타깃 인코딩·내부 선택과 OOF, 동일집단 비교와 검증 범위
-- [2026-10-03](../2026-10/2026-10-03.md) · Git blob·tree·commit·브랜치의 역할, README 애니메이션과 최종 커밋 검증
-- [2026-10-01](../2026-10/2026-10-01.md) · Streamlit 시계열 앱·학습곡선과 일반화 차이·L1/L2 규제, Airplane D안과 Career Agent 교대 검증
-- [2026-09-30](../2026-09/2026-09-30.md) · 정상성·ADF·ARIMA의 p·d·q, 예측 검증의 경계와 Career Agent 복구·Hub 표시 개선
-- [2026-09-29](../2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
-- [2026-09-28](../2026-09/2026-09-28.md) · MWFD Stage E·강제청산 검증·KRX/NXT dual 수집, Career Hub 통합
-- [2026-09-27](../2026-09/2026-09-27.md) · MWFD Stage C/D·dual collector smoke, Career eligibility v2·Practical Fit shadow 검증
-- [2026-09-26](../2026-09/2026-09-26.md) · MWFD-04 전체 실행·파이프라인 감사 remediation, Career Tavily·출처 provenance 계약
-- [2026-09-25](../2026-09/2026-09-25.md) · Fast Backtest v1·Operator 실행 준비, Career matcher v2·daily operator 전환
-- [2026-09-24](../2026-09/2026-09-24.md) · Stock 포트폴리오·bounded prefix·frozen snapshot 안전 경계, Career System 검증·profile snapshot
-- [2026-09-22](../2026-09/2026-09-22.md) · 프로덕트 분석 문제정의·퍼널/리텐션·A/B 실험 설계, Stock/Airplane 검증, career-agent 근거 기반 자동화
-- [2026-09-21](../2026-09/2026-09-21.md) · 리텐션·퍼널·A/B 실험 설계와 Ridge/Lasso 복습, product_2 과제 검토, Stock/Airplane 운영 안정화
-- [2026-09-20](../2026-09/2026-09-20.md) · Stock 실데이터 후보 선정 보류와 clean 세션 우선 결정, Airplane Git-only/로컬 검증 분리·날씨 수집 재개 예산 계약, GitHub 플러…
-- [2026-09-01](../2026-09/2026-09-01.md) · ML 파이프라인(Logistic Regression vs LightGBM), 분류 임계값(Threshold) 최적화, OR(운영연구) 기반 최적화, Cline-…
-- [2026-08-31](../2026-08/2026-08-31.md) · 통계학 수리적 본질 증명(이항분포 분산·자유도·IEEE 754 극단값 SF), Python set 해시 비결정론, uv 모노레포 가상환경 아키텍처, Postgr…
 
 <a id="topic-5"></a>
 
