@@ -9,7 +9,7 @@
 | 일 | 기록 / 단계 |
 | :---: | :--- |
 | [**17**](./2026-10-17.md) | GitHub CI 호환 점검과 느린 테스트 분리, 대시보드 접근 통제 복구, AUTO-02 측정 스크립트 추가, earthquake 확장 튜닝 보고와 대시보드…<br>Quant / DevOps / ML |
-| [**16**](./2026-10-16.md) | Claude Code 세션 압축·기록 보존, NXT 수능일 거래시간 예외 확인<br>Quant / DevOps |
+| [**16**](./2026-10-16.md) | Claude Code 세션 압축·기록 보존, NXT 수능일 거래시간 예외 확인, 네팔 지진 프로젝트 학습 31~36단계(희소 범주·파생 변수·지역 Group C…<br>Quant / DevOps / ML |
 | [**15**](./2026-10-15.md) | 타깃 누수와 학습·검증 경계, 피처 설계·지표 교환관계, Git fetch와 PR 협업<br>ML / Stats / EDA / Git / DevOps |
 | [**14**](./2026-10-14.md) | 연속 구간 완전탐색, 지진 파생변수 5종과 지역 Group CV, 재현·검증 근거 구분<br>Algo / ML / Stats / EDA / DevOps |
 | [**13**](./2026-10-13.md) | 지진 피해 분류 문제 정의, age=995 이상치 판단, 불균형 지표·홀드아웃 경계와 팀 협업<br>ML / Stats / EDA / Git / DevOps |
