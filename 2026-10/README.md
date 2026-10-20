@@ -8,7 +8,7 @@
 
 | 일 | 기록 / 단계 |
 | :---: | :--- |
-| [**20**](./2026-10-20.md) | 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신 비트 동일 대조·시간축 분할 계산), 새 수집기 버전 첫 실전 관찰, 다중 AI 세션 작업 방식<br>Quant / Data Eng / DevOps |
+| [**20**](./2026-10-20.md) | AI 기초 수학 1장 1~2강(벡터·행렬·Shape·노름·내적·행렬곱)과 노름의 라쏘·릿지 연결, 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신…<br>Math / ML / Quant / Data Eng / DevOps |
 | [**19**](./2026-10-19.md) | earthquake 제출 마감일의 상태 기록과 팀원 자료·README의 main 반영 (T29·팀 최종 모델은 팀원 자료 대기), stock venv .pth…<br>ML / Collaboration / Quant / DevOps |
 | [**18**](./2026-10-18.md) | 사전등록 백테스트 두 건의 결과(청산 규칙 948개 후보 없음·급등 가설 기각), net↔gross 손익분기 변환, LODO·PBO 해석, pilot이 놓친 메…<br>Quant / Stats / DevOps |
 | [**17**](./2026-10-17.md) | GitHub CI 호환 점검과 느린 테스트 분리, 대시보드 접근 통제 복구, AUTO-02 측정 스크립트 추가, earthquake 확장 튜닝 보고와 대시보드…<br>Quant / DevOps / ML |
