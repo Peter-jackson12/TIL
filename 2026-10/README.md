@@ -4,11 +4,13 @@
 
 [전체 목차](../README.md#learning-log) · [주제별 색인](../docs/topics.md) · [← 2026-09](../2026-09/README.md)
 
-이 달의 기록 **15건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
+이 달의 기록 **17건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
 
 | 일 | 기록 / 단계 |
 | :---: | :--- |
-| [**19**](./2026-10-19.md) | earthquake 제출 마감일의 상태 기록과 팀원 자료·README의 main 반영 (T29·팀 최종 모델은 팀원 자료 대기)<br>ML / Collaboration |
+| [**20**](./2026-10-20.md) | 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신 비트 동일 대조·시간축 분할 계산), 새 수집기 버전 첫 실전 관찰, 다중 AI 세션 작업 방식<br>Quant / Data Eng / DevOps |
+| [**19**](./2026-10-19.md) | earthquake 제출 마감일의 상태 기록과 팀원 자료·README의 main 반영 (T29·팀 최종 모델은 팀원 자료 대기), stock venv .pth…<br>ML / Collaboration / Quant / DevOps |
+| [**18**](./2026-10-18.md) | 사전등록 백테스트 두 건의 결과(청산 규칙 948개 후보 없음·급등 가설 기각), net↔gross 손익분기 변환, LODO·PBO 해석, pilot이 놓친 메…<br>Quant / Stats / DevOps |
 | [**17**](./2026-10-17.md) | GitHub CI 호환 점검과 느린 테스트 분리, 대시보드 접근 통제 복구, AUTO-02 측정 스크립트 추가, earthquake 확장 튜닝 보고와 대시보드…<br>Quant / DevOps / ML |
 | [**16**](./2026-10-16.md) | Claude Code 세션 압축·기록 보존, NXT 수능일 거래시간 예외 확인, 네팔 지진 프로젝트 학습 31~36단계(희소 범주·파생 변수·지역 Group C…<br>Quant / DevOps / ML |
 | [**15**](./2026-10-15.md) | 타깃 누수와 학습·검증 경계, 피처 설계·지표 교환관계, Git fetch와 PR 협업<br>ML / Stats / EDA / Git / DevOps |
