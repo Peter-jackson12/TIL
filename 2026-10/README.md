@@ -4,10 +4,11 @@
 
 [전체 목차](../README.md#learning-log) · [주제별 색인](../docs/topics.md) · [← 2026-09](../2026-09/README.md)
 
-이 달의 기록 **17건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
+이 달의 기록 **18건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
 
 | 일 | 기록 / 단계 |
 | :---: | :--- |
+| [**21**](./2026-10-21.md) | AI 기초 수학 1장 3강(선형·아핀 변환, 신경망 레이어와 순전파)과 2장 1강(회귀·분류 예측, Sigmoid·Softmax·Threshold·Argmax)…<br>Math / ML / DevOps |
 | [**20**](./2026-10-20.md) | AI 기초 수학 1장 1~2강(벡터·행렬·Shape·노름·내적·행렬곱)과 노름의 라쏘·릿지 연결, 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신…<br>Math / ML / Quant / Data Eng / DevOps |
 | [**19**](./2026-10-19.md) | earthquake 제출 마감일의 상태 기록과 팀원 자료·README의 main 반영 (T29·팀 최종 모델은 팀원 자료 대기), stock venv .pth…<br>ML / Collaboration / Quant / DevOps |
 | [**18**](./2026-10-18.md) | 사전등록 백테스트 두 건의 결과(청산 규칙 948개 후보 없음·급등 가설 기각), net↔gross 손익분기 변환, LODO·PBO 해석, pilot이 놓친 메…<br>Quant / Stats / DevOps |

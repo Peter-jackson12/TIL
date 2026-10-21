@@ -7,7 +7,7 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[Quant (28)](#topic-1) · [ML (26)](#topic-2) · [DevOps (25)](#topic-3) · [Stats (23)](#topic-4) · [Python (11)](#topic-5) · [Data Engineering (10)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (5)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Viz (4)](#topic-13) · [AI (3)](#topic-14) · [OOP (3)](#topic-15) · [BI (2)](#topic-16) · [A-B Test (1)](#topic-17) · [Collaboration (1)](#topic-18) · [Data (1)](#topic-19) · [Data Eng (1)](#topic-20) · [Infra (1)](#topic-21) · [Math (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
+[Quant (28)](#topic-1) · [ML (27)](#topic-2) · [DevOps (26)](#topic-3) · [Stats (23)](#topic-4) · [Python (11)](#topic-5) · [Data Engineering (10)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (5)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Viz (4)](#topic-13) · [AI (3)](#topic-14) · [OOP (3)](#topic-15) · [BI (2)](#topic-16) · [Math (2)](#topic-17) · [A-B Test (1)](#topic-18) · [Collaboration (1)](#topic-19) · [Data (1)](#topic-20) · [Data Eng (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
 
 <a id="topic-1"></a>
 
@@ -44,8 +44,9 @@
 
 <a id="topic-2"></a>
 
-### ML (26건)
+### ML (27건)
 
+- [2026-10-21](../2026-10/2026-10-21.md) · AI 기초 수학 1장 3강(선형·아핀 변환, 신경망 레이어와 순전파)과 2장 1강(회귀·분류 예측, Sigmoid·Softmax·Threshold·Argmax)…
 - [2026-10-20](../2026-10/2026-10-20.md) · AI 기초 수학 1장 1~2강(벡터·행렬·Shape·노름·내적·행렬곱)과 노름의 라쏘·릿지 연결, 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신…
 - [2026-10-19](../2026-10/2026-10-19.md) · earthquake 제출 마감일의 상태 기록과 팀원 자료·README의 main 반영 (T29·팀 최종 모델은 팀원 자료 대기), stock venv .pth…
 - [2026-10-17](../2026-10/2026-10-17.md) · GitHub CI 호환 점검과 느린 테스트 분리, 대시보드 접근 통제 복구, AUTO-02 측정 스크립트 추가, earthquake 확장 튜닝 보고와 대시보드…
@@ -75,8 +76,9 @@
 
 <a id="topic-3"></a>
 
-### DevOps (25건)
+### DevOps (26건)
 
+- [2026-10-21](../2026-10/2026-10-21.md) · AI 기초 수학 1장 3강(선형·아핀 변환, 신경망 레이어와 순전파)과 2장 1강(회귀·분류 예측, Sigmoid·Softmax·Threshold·Argmax)…
 - [2026-10-20](../2026-10/2026-10-20.md) · AI 기초 수학 1장 1~2강(벡터·행렬·Shape·노름·내적·행렬곱)과 노름의 라쏘·릿지 연결, 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신…
 - [2026-10-19](../2026-10/2026-10-19.md) · earthquake 제출 마감일의 상태 기록과 팀원 자료·README의 main 반영 (T29·팀 최종 모델은 팀원 자료 대기), stock venv .pth…
 - [2026-10-18](../2026-10/2026-10-18.md) · 사전등록 백테스트 두 건의 결과(청산 규칙 948개 후보 없음·급등 가설 기각), net↔gross 손익분기 변환, LODO·PBO 해석, pilot이 놓친 메…
@@ -264,39 +266,40 @@
 
 <a id="topic-17"></a>
 
+### Math (2건)
+
+- [2026-10-21](../2026-10/2026-10-21.md) · AI 기초 수학 1장 3강(선형·아핀 변환, 신경망 레이어와 순전파)과 2장 1강(회귀·분류 예측, Sigmoid·Softmax·Threshold·Argmax)…
+- [2026-10-20](../2026-10/2026-10-20.md) · AI 기초 수학 1장 1~2강(벡터·행렬·Shape·노름·내적·행렬곱)과 노름의 라쏘·릿지 연결, 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신…
+
+<a id="topic-18"></a>
+
 ### A-B Test (1건)
 
 - [2026-09-17](../2026-09/2026-09-17.md) · Pearson·단순회귀 $R^2$ 수리 연결, Cookie Cats A/B 랜덤화·SRM 진단과 MDE-Power 표본설계, Stock NXT venue 판정·…
 
-<a id="topic-18"></a>
+<a id="topic-19"></a>
 
 ### Collaboration (1건)
 
 - [2026-10-19](../2026-10/2026-10-19.md) · earthquake 제출 마감일의 상태 기록과 팀원 자료·README의 main 반영 (T29·팀 최종 모델은 팀원 자료 대기), stock venv .pth…
 
-<a id="topic-19"></a>
+<a id="topic-20"></a>
 
 ### Data (1건)
 
 - [2026-09-08](../2026-09/2026-09-08.md) · 100만 행 불균형 분류 6단계 진화(Threshold 0.22 튜닝·비대칭 Pseudo-Labeling 8.9만 건 증강·시간 역산 복원), K-Means 거…
 
-<a id="topic-20"></a>
+<a id="topic-21"></a>
 
 ### Data Eng (1건)
 
 - [2026-10-20](../2026-10/2026-10-20.md) · AI 기초 수학 1장 1~2강(벡터·행렬·Shape·노름·내적·행렬곱)과 노름의 라쏘·릿지 연결, 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신…
 
-<a id="topic-21"></a>
+<a id="topic-22"></a>
 
 ### Infra (1건)
 
 - [2026-09-10](../2026-09/2026-09-10.md) · RDBMS CBO 옵티마이저·실행계획(EXPLAIN) 해석, B-Tree 인덱스 vs 인메모리 Hash Join 메커니즘, 다단계 JOIN 체인과 1:N 행 팽…
-
-<a id="topic-22"></a>
-
-### Math (1건)
-
-- [2026-10-20](../2026-10/2026-10-20.md) · AI 기초 수학 1장 1~2강(벡터·행렬·Shape·노름·내적·행렬곱)과 노름의 라쏘·릿지 연결, 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신…
 
 <a id="topic-23"></a>
 
