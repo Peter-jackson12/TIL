@@ -22,7 +22,7 @@ def main():
     target_dir.mkdir(exist_ok=True)
     file_path = target_dir / f"{learning_date.isoformat()}.md"
 
-    content = f"""# 📝 Today I Learned (TIL)
+    content = f"""# {learning_date.isoformat()} TIL
 
 > **날짜:** {learning_date.isoformat()}<br>
 > **작성자:** Peter-jackson12<br>
