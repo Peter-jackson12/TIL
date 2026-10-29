@@ -13,3 +13,6 @@ __pycache__/
 # 운영체제가 만드는 파일
 .DS_Store
 Thumbs.db
+
+# 다른 프로그램이 작업 폴더에 남기는 로그 (예: debug.log)
+*.log
