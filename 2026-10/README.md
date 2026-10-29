@@ -4,10 +4,11 @@
 
 [전체 목차](../README.md#learning-log) · [주제별 색인](../docs/topics.md) · [← 2026-09](../2026-09/README.md)
 
-이 달의 기록 **22건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
+이 달의 기록 **23건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
 
 | 일 | 기록 / 단계 |
 | :---: | :--- |
+| [**29**](./2026-10-29.md) | 딥러닝 기초 4장 Attention·Transformer(Self-Attention, Q/K/V, Multi-Head Attention, Positional E…<br>ML / Algo |
 | [**28**](./2026-10-28.md) | 딥러닝 기초 3장 1강 CNN(Convolution·Pooling·Shape 변화)과 3장 2강 RNN·LSTM(Hidden State·Gate·Cell Sta…<br>ML / Algo |
 | [**27**](./2026-10-27.md) | AI 기초 수학 2장 1강~3장 3강 실습 정리(점수·확률·우도·손실 → 미분·역전파·경사하강법)와 역전파 숫자 따라가기, Stock 실주문 실험 설계 확정과…<br>Math / ML / Quant / DevOps |
 | [**24**](./2026-10-24.md) | Stock 주간 회고(10/19~24): 에이전트 조직 3분할, 실주문 계단식 실험·피처 저장소 v1 동결 결정, 정리 작업이 운영 가상환경을 지운 실패와 사후…<br>Quant / DevOps / Data Eng |
