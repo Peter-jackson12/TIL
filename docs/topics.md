@@ -7,12 +7,13 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[ML (30)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (28)](#topic-3) · [Stats (24)](#topic-4) · [Python (11)](#topic-5) · [Data Engineering (10)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (6)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Math (4)](#topic-13) · [Viz (4)](#topic-14) · [AI (3)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
+[ML (31)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (28)](#topic-3) · [Stats (24)](#topic-4) · [Python (11)](#topic-5) · [Data Engineering (10)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Math (4)](#topic-13) · [Viz (4)](#topic-14) · [AI (3)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
 
 <a id="topic-1"></a>
 
-### ML (30건)
+### ML (31건)
 
+- [2026-10-29](../2026-10/2026-10-29.md) · 딥러닝 기초 4장 Attention·Transformer(Self-Attention, Q/K/V, Multi-Head Attention, Positional E…
 - [2026-10-28](../2026-10/2026-10-28.md) · 딥러닝 기초 3장 1강 CNN(Convolution·Pooling·Shape 변화)과 3장 2강 RNN·LSTM(Hidden State·Gate·Cell Sta…
 - [2026-10-27](../2026-10/2026-10-27.md) · AI 기초 수학 2장 1강~3장 3강 실습 정리(점수·확률·우도·손실 → 미분·역전파·경사하강법)와 역전파 숫자 따라가기, Stock 실주문 실험 설계 확정과…
 - [2026-10-22](../2026-10/2026-10-22.md) · AI 기초 수학 2장 2~3강(우도·MLE·로그우도·NLL, MSE·BCE·CE)과 Sigmoid 기울기 소실
@@ -203,8 +204,9 @@
 
 <a id="topic-9"></a>
 
-### Algo (6건)
+### Algo (7건)
 
+- [2026-10-29](../2026-10/2026-10-29.md) · 딥러닝 기초 4장 Attention·Transformer(Self-Attention, Q/K/V, Multi-Head Attention, Positional E…
 - [2026-10-28](../2026-10/2026-10-28.md) · 딥러닝 기초 3장 1강 CNN(Convolution·Pooling·Shape 변화)과 3장 2강 RNN·LSTM(Hidden State·Gate·Cell Sta…
 - [2026-10-14](../2026-10/2026-10-14.md) · 연속 구간 완전탐색, 지진 파생변수 5종과 지역 Group CV, 재현·검증 근거 구분
 - [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
