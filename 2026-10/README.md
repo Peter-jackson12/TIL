@@ -2,7 +2,7 @@
 
 **MONTHLY ARCHIVE / 배움의 현장 기록**
 
-[전체 목차](../README.md#learning-log) · [주제별 색인](../docs/topics.md) · [← 2026-09](../2026-09/README.md)
+[전체 목차](../README.md#learning-log) · [주제별 색인](../docs/topics.md) · [← 2026-09](../2026-09/README.md) · [2026-11 →](../2026-11/README.md)
 
 이 달의 기록 **23건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
 
