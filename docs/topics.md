@@ -7,7 +7,7 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[ML (33)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (28)](#topic-3) · [Stats (24)](#topic-4) · [Python (12)](#topic-5) · [Data Engineering (11)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Math (4)](#topic-13) · [Viz (4)](#topic-14) · [AI (3)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
+[ML (33)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (28)](#topic-3) · [Stats (24)](#topic-4) · [Python (13)](#topic-5) · [Data Engineering (12)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Math (4)](#topic-13) · [Viz (4)](#topic-14) · [AI (3)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
 
 <a id="topic-1"></a>
 
@@ -146,8 +146,9 @@
 
 <a id="topic-5"></a>
 
-### Python (12건)
+### Python (13건)
 
+- [2026-11-05](../2026-11/2026-11-05.md) · 웹 데이터 수집 1~3장: HTML·JSON 구조, API·크롤링·페이지네이션, pandas 품질 검증·정제
 - [2026-11-03](../2026-11/2026-11-03.md) · 데이터 추출·API/JSON·웹 크롤링(정적/동적·BeautifulSoup)과 Transformer Attention 수식·Encoder 분류 실습 해설
 - [2026-10-07](../2026-10/2026-10-07.md) · CV·Pipeline과 데이터 문제 해결, 배깅·부스팅 실습, OOF·Macro F1·날씨 가용성 해석
 - [2026-08-27](../2026-08/2026-08-27.md) · Python 3.14 데이터 시각화 프레임워크, Matplotlib/Seaborn OOP 메커니즘, AI 코딩 에이전트(Cline/MCP/Ollama) 파이프라…
@@ -163,8 +164,9 @@
 
 <a id="topic-6"></a>
 
-### Data Engineering (11건)
+### Data Engineering (12건)
 
+- [2026-11-05](../2026-11/2026-11-05.md) · 웹 데이터 수집 1~3장: HTML·JSON 구조, API·크롤링·페이지네이션, pandas 품질 검증·정제
 - [2026-11-03](../2026-11/2026-11-03.md) · 데이터 추출·API/JSON·웹 크롤링(정적/동적·BeautifulSoup)과 Transformer Attention 수식·Encoder 분류 실습 해설
 - [2026-09-29](../2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
 - [2026-09-28](../2026-09/2026-09-28.md) · MWFD Stage E·강제청산 검증·KRX/NXT dual 수집, Career Hub 통합
