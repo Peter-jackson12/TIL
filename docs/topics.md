@@ -7,12 +7,13 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[ML (32)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (28)](#topic-3) · [Stats (24)](#topic-4) · [Python (12)](#topic-5) · [Data Engineering (11)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Math (4)](#topic-13) · [Viz (4)](#topic-14) · [AI (3)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
+[ML (33)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (28)](#topic-3) · [Stats (24)](#topic-4) · [Python (12)](#topic-5) · [Data Engineering (11)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Math (4)](#topic-13) · [Viz (4)](#topic-14) · [AI (3)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
 
 <a id="topic-1"></a>
 
-### ML (32건)
+### ML (33건)
 
+- [2026-11-04](../2026-11/2026-11-04.md) · 딥러닝 6장 전이학습(Pretrained·Freeze·Fine-tuning) 수식·NumPy 역전파와 Scratch 성능·비용 비교
 - [2026-11-03](../2026-11/2026-11-03.md) · 데이터 추출·API/JSON·웹 크롤링(정적/동적·BeautifulSoup)과 Transformer Attention 수식·Encoder 분류 실습 해설
 - [2026-10-29](../2026-10/2026-10-29.md) · 딥러닝 기초 4장 Attention·Transformer(Self-Attention, Q/K/V, Multi-Head Attention, Positional E…
 - [2026-10-28](../2026-10/2026-10-28.md) · 딥러닝 기초 3장 1강 CNN(Convolution·Pooling·Shape 변화)과 3장 2강 RNN·LSTM(Hidden State·Gate·Cell Sta…
