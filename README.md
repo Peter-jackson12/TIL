@@ -33,8 +33,6 @@
 
 딥러닝 기초 4장 Attention·Transformer(Self-Attention, Q/K/V, Multi-Head Attention, Positional E…
 
-
-
 <a id="archive"></a>
 
 ## 02 / 월별 아카이브
