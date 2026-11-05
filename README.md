@@ -21,6 +21,10 @@
 
 ## 01 / 최근 기록
 
+**[2026-11-04](./2026-11/2026-11-04.md)** · ML
+
+딥러닝 6장 전이학습(Pretrained·Freeze·Fine-tuning) 수식·NumPy 역전파와 Scratch 성능·비용 비교
+
 **[2026-11-03](./2026-11/2026-11-03.md)** · Python / Data Engineering / ML
 
 데이터 추출·API/JSON·웹 크롤링(정적/동적·BeautifulSoup)과 Transformer Attention 수식·Encoder 분류 실습 해설
@@ -29,9 +33,7 @@
 
 딥러닝 기초 4장 Attention·Transformer(Self-Attention, Q/K/V, Multi-Head Attention, Positional E…
 
-**[2026-10-28](./2026-10/2026-10-28.md)** · ML / Algo
 
-딥러닝 기초 3장 1강 CNN(Convolution·Pooling·Shape 변화)과 3장 2강 RNN·LSTM(Hidden State·Gate·Cell Sta…
 
 <a id="archive"></a>
 
@@ -39,12 +41,12 @@
 
 | 월 / 목차 | 기록 | 주요 단계 |
 | :--- | :---: | :--- |
-| [**2026-11 →**](./2026-11/README.md) | 1건 | Python · Data Engineering · ML |
+| [**2026-11 →**](./2026-11/README.md) | 2건 | Python · Data Engineering · ML |
 | [**2026-10 →**](./2026-10/README.md) | 23건 | ML · DevOps · Stats · Quant |
 | [**2026-09 →**](./2026-09/README.md) | 23건 | Quant · ML · DevOps · Stats |
 | [**2026-08 →**](./2026-08/README.md) | 16건 | Python · SQL · Quant · AI |
 
-**기록 63건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
+**기록 64건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
 
 <!-- 목차 끝 -->
 
