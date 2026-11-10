@@ -21,6 +21,10 @@
 
 ## 01 / 최근 기록
 
+**[2026-11-10](./2026-11/2026-11-10.md)** · Python / ML
+
+텍스트 전처리·TF/DF/IDF, 임베딩·코사인 유사도와 NumPy 내적·행렬곱, BERTopic·RAG
+
 **[2026-11-05](./2026-11/2026-11-05.md)** · Python / Data Engineering
 
 웹 데이터 수집 1~3장: HTML·JSON 구조, API·크롤링·페이지네이션, pandas 품질 검증·정제
@@ -29,22 +33,18 @@
 
 딥러닝 6장 전이학습(Pretrained·Freeze·Fine-tuning) 수식·NumPy 역전파와 Scratch 성능·비용 비교
 
-**[2026-11-03](./2026-11/2026-11-03.md)** · Python / Data Engineering / ML
-
-데이터 추출·API/JSON·웹 크롤링(정적/동적·BeautifulSoup)과 Transformer Attention 수식·Encoder 분류 실습 해설
-
 <a id="archive"></a>
 
 ## 02 / 월별 아카이브
 
 | 월 / 목차 | 기록 | 주요 단계 |
 | :--- | :---: | :--- |
-| [**2026-11 →**](./2026-11/README.md) | 3건 | Python · Data Engineering · ML |
+| [**2026-11 →**](./2026-11/README.md) | 4건 | Python · ML · Data Engineering |
 | [**2026-10 →**](./2026-10/README.md) | 23건 | ML · DevOps · Stats · Quant |
 | [**2026-09 →**](./2026-09/README.md) | 23건 | Quant · ML · DevOps · Stats |
 | [**2026-08 →**](./2026-08/README.md) | 16건 | Python · SQL · Quant · AI |
 
-**기록 65건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
+**기록 66건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
 
 <!-- 목차 끝 -->
 

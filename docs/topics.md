@@ -7,12 +7,13 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[ML (33)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (28)](#topic-3) · [Stats (24)](#topic-4) · [Python (13)](#topic-5) · [Data Engineering (12)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Math (4)](#topic-13) · [Viz (4)](#topic-14) · [AI (3)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
+[ML (34)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (28)](#topic-3) · [Stats (24)](#topic-4) · [Python (14)](#topic-5) · [Data Engineering (12)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Math (4)](#topic-13) · [Viz (4)](#topic-14) · [AI (3)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
 
 <a id="topic-1"></a>
 
-### ML (33건)
+### ML (34건)
 
+- [2026-11-10](../2026-11/2026-11-10.md) · 텍스트 전처리·TF/DF/IDF, 임베딩·코사인 유사도와 NumPy 내적·행렬곱, BERTopic·RAG
 - [2026-11-04](../2026-11/2026-11-04.md) · 딥러닝 6장 전이학습(Pretrained·Freeze·Fine-tuning) 수식·NumPy 역전파와 Scratch 성능·비용 비교
 - [2026-11-03](../2026-11/2026-11-03.md) · 데이터 추출·API/JSON·웹 크롤링(정적/동적·BeautifulSoup)과 Transformer Attention 수식·Encoder 분류 실습 해설
 - [2026-10-29](../2026-10/2026-10-29.md) · 딥러닝 기초 4장 Attention·Transformer(Self-Attention, Q/K/V, Multi-Head Attention, Positional E…
@@ -146,8 +147,9 @@
 
 <a id="topic-5"></a>
 
-### Python (13건)
+### Python (14건)
 
+- [2026-11-10](../2026-11/2026-11-10.md) · 텍스트 전처리·TF/DF/IDF, 임베딩·코사인 유사도와 NumPy 내적·행렬곱, BERTopic·RAG
 - [2026-11-05](../2026-11/2026-11-05.md) · 웹 데이터 수집 1~3장: HTML·JSON 구조, API·크롤링·페이지네이션, pandas 품질 검증·정제
 - [2026-11-03](../2026-11/2026-11-03.md) · 데이터 추출·API/JSON·웹 크롤링(정적/동적·BeautifulSoup)과 Transformer Attention 수식·Encoder 분류 실습 해설
 - [2026-10-07](../2026-10/2026-10-07.md) · CV·Pipeline과 데이터 문제 해결, 배깅·부스팅 실습, OOF·Macro F1·날씨 가용성 해석
