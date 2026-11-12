@@ -7,12 +7,13 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[ML (35)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (28)](#topic-3) · [Stats (24)](#topic-4) · [Python (15)](#topic-5) · [Data Engineering (12)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [EDA (4)](#topic-12) · [Math (4)](#topic-13) · [Viz (4)](#topic-14) · [AI (3)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
+[ML (36)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (29)](#topic-3) · [Stats (24)](#topic-4) · [Python (15)](#topic-5) · [Data Engineering (12)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [AI (4)](#topic-12) · [EDA (4)](#topic-13) · [Math (4)](#topic-14) · [Viz (4)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
 
 <a id="topic-1"></a>
 
-### ML (35건)
+### ML (36건)
 
+- [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스 엔지니어링, REST/OpenAPI·네이버 MCP, Claude API 크레딧과 모델 비교
 - [2026-11-11](../2026-11/2026-11-11.md) · BERTopic·Transformer 문장 임베딩, 코사인 유사도·Top-K/Temperature, K 자동 튜닝과 uv 캐시
 - [2026-11-10](../2026-11/2026-11-10.md) · 텍스트 전처리·TF/DF/IDF, 임베딩·코사인 유사도와 NumPy 내적·행렬곱, BERTopic·RAG
 - [2026-11-04](../2026-11/2026-11-04.md) · 딥러닝 6장 전이학습(Pretrained·Freeze·Fine-tuning) 수식·NumPy 역전파와 Scratch 성능·비용 비교
@@ -86,8 +87,9 @@
 
 <a id="topic-3"></a>
 
-### DevOps (28건)
+### DevOps (29건)
 
+- [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스 엔지니어링, REST/OpenAPI·네이버 MCP, Claude API 크레딧과 모델 비교
 - [2026-10-27](../2026-10/2026-10-27.md) · AI 기초 수학 2장 1강~3장 3강 실습 정리(점수·확률·우도·손실 → 미분·역전파·경사하강법)와 역전파 숫자 따라가기, Stock 실주문 실험 설계 확정과…
 - [2026-10-24](../2026-10/2026-10-24.md) · Stock 주간 회고(10/19~24): 에이전트 조직 3분할, 실주문 계단식 실험·피처 저장소 v1 동결 결정, 정리 작업이 운영 가상환경을 지운 실패와 사후…
 - [2026-10-21](../2026-10/2026-10-21.md) · AI 기초 수학 1장 3강(선형·아핀 변환, 신경망 레이어와 순전파)과 2장 1강(회귀·분류 예측, Sigmoid·Softmax·Threshold·Argmax)…
@@ -246,6 +248,15 @@
 
 <a id="topic-12"></a>
 
+### AI (4건)
+
+- [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스 엔지니어링, REST/OpenAPI·네이버 MCP, Claude API 크레딧과 모델 비교
+- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
+- [2026-08-27](../2026-08/2026-08-27.md) · Python 3.14 데이터 시각화 프레임워크, Matplotlib/Seaborn OOP 메커니즘, AI 코딩 에이전트(Cline/MCP/Ollama) 파이프라…
+- [2026-08-05](../2026-08/2026-08-05.md) · 생성형 AI·LLM, 프롬프트 구성 및 책임 있는 AI 활용
+
+<a id="topic-13"></a>
+
 ### EDA (4건)
 
 - [2026-10-15](../2026-10/2026-10-15.md) · 타깃 누수와 학습·검증 경계, 피처 설계·지표 교환관계, Git fetch와 PR 협업
@@ -253,7 +264,7 @@
 - [2026-10-13](../2026-10/2026-10-13.md) · 지진 피해 분류 문제 정의, age=995 이상치 판단, 불균형 지표·홀드아웃 경계와 팀 협업
 - [2026-08-25](../2026-08/2026-08-25.md) · Pandas 다중 집계(`agg`/`pivot_table`), `str.split`/`rrule` 시계열 생성, Git 스냅샷 원리, EDA 이상치(IQR vs…
 
-<a id="topic-13"></a>
+<a id="topic-14"></a>
 
 ### Math (4건)
 
@@ -262,7 +273,7 @@
 - [2026-10-21](../2026-10/2026-10-21.md) · AI 기초 수학 1장 3강(선형·아핀 변환, 신경망 레이어와 순전파)과 2장 1강(회귀·분류 예측, Sigmoid·Softmax·Threshold·Argmax)…
 - [2026-10-20](../2026-10/2026-10-20.md) · AI 기초 수학 1장 1~2강(벡터·행렬·Shape·노름·내적·행렬곱)과 노름의 라쏘·릿지 연결, 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신…
 
-<a id="topic-14"></a>
+<a id="topic-15"></a>
 
 ### Viz (4건)
 
@@ -270,14 +281,6 @@
 - [2026-10-09](../2026-10/2026-10-09.md) · 근거 수준과 검토 시점 구분, 포트폴리오 디자인·접근성, UTF-8 SVG와 병합 후 CI 검증
 - [2026-10-08](../2026-10/2026-10-08.md) · Tableau 집계·LOD·테이블 계산, CV 탐색과 Optuna, 그래프 연결 요소와 대시보드 게시
 - [2026-08-27](../2026-08/2026-08-27.md) · Python 3.14 데이터 시각화 프레임워크, Matplotlib/Seaborn OOP 메커니즘, AI 코딩 에이전트(Cline/MCP/Ollama) 파이프라…
-
-<a id="topic-15"></a>
-
-### AI (3건)
-
-- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
-- [2026-08-27](../2026-08/2026-08-27.md) · Python 3.14 데이터 시각화 프레임워크, Matplotlib/Seaborn OOP 메커니즘, AI 코딩 에이전트(Cline/MCP/Ollama) 파이프라…
-- [2026-08-05](../2026-08/2026-08-05.md) · 생성형 AI·LLM, 프롬프트 구성 및 책임 있는 AI 활용
 
 <a id="topic-16"></a>
 
