@@ -23,7 +23,7 @@
 
 **[2026-11-12](./2026-11/2026-11-12.md)** · AI / DevOps / ML
 
-토큰화·하네스 엔지니어링, REST/OpenAPI·네이버 MCP, Claude API 크레딧과 모델 비교
+토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션
 
 **[2026-11-11](./2026-11/2026-11-11.md)** · Python / ML
 
