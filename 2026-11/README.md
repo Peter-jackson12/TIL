@@ -4,10 +4,11 @@
 
 [전체 목차](../README.md#learning-log) · [주제별 색인](../docs/topics.md) · [← 2026-10](../2026-10/README.md)
 
-이 달의 기록 **6건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
+이 달의 기록 **7건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
 
 | 일 | 기록 / 단계 |
 | :---: | :--- |
+| [**16**](./2026-11-16.md) | Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증<br>AI / ML / Quant / DevOps / Data Engineering / Microstructure |
 | [**12**](./2026-11-12.md) | 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션<br>AI / DevOps / ML |
 | [**11**](./2026-11-11.md) | BERTopic·Transformer 문장 임베딩, 코사인 유사도·Top-K/Temperature, K 자동 튜닝과 uv 캐시<br>Python / ML |
 | [**10**](./2026-11-10.md) | 텍스트 전처리·TF/DF/IDF, 임베딩·코사인 유사도와 NumPy 내적·행렬곱, BERTopic·RAG<br>Python / ML |
