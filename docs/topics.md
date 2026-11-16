@@ -7,12 +7,13 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[ML (36)](#topic-1) · [Quant (30)](#topic-2) · [DevOps (29)](#topic-3) · [Stats (24)](#topic-4) · [Python (15)](#topic-5) · [Data Engineering (12)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [Git (5)](#topic-10) · [Product Analytics (5)](#topic-11) · [AI (4)](#topic-12) · [EDA (4)](#topic-13) · [Math (4)](#topic-14) · [Viz (4)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [A-B Test (1)](#topic-19) · [Collaboration (1)](#topic-20) · [Data (1)](#topic-21) · [Infra (1)](#topic-22) · [Microstructure (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
+[ML (37)](#topic-1) · [Quant (31)](#topic-2) · [DevOps (30)](#topic-3) · [Stats (24)](#topic-4) · [Python (15)](#topic-5) · [Data Engineering (13)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [AI (5)](#topic-10) · [Git (5)](#topic-11) · [Product Analytics (5)](#topic-12) · [EDA (4)](#topic-13) · [Math (4)](#topic-14) · [Viz (4)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [Microstructure (2)](#topic-19) · [A-B Test (1)](#topic-20) · [Collaboration (1)](#topic-21) · [Data (1)](#topic-22) · [Infra (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
 
 <a id="topic-1"></a>
 
-### ML (36건)
+### ML (37건)
 
+- [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
 - [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션
 - [2026-11-11](../2026-11/2026-11-11.md) · BERTopic·Transformer 문장 임베딩, 코사인 유사도·Top-K/Temperature, K 자동 튜닝과 uv 캐시
 - [2026-11-10](../2026-11/2026-11-10.md) · 텍스트 전처리·TF/DF/IDF, 임베딩·코사인 유사도와 NumPy 내적·행렬곱, BERTopic·RAG
@@ -52,8 +53,9 @@
 
 <a id="topic-2"></a>
 
-### Quant (30건)
+### Quant (31건)
 
+- [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
 - [2026-10-27](../2026-10/2026-10-27.md) · AI 기초 수학 2장 1강~3장 3강 실습 정리(점수·확률·우도·손실 → 미분·역전파·경사하강법)와 역전파 숫자 따라가기, Stock 실주문 실험 설계 확정과…
 - [2026-10-24](../2026-10/2026-10-24.md) · Stock 주간 회고(10/19~24): 에이전트 조직 3분할, 실주문 계단식 실험·피처 저장소 v1 동결 결정, 정리 작업이 운영 가상환경을 지운 실패와 사후…
 - [2026-10-20](../2026-10/2026-10-20.md) · AI 기초 수학 1장 1~2강(벡터·행렬·Shape·노름·내적·행렬곱)과 노름의 라쏘·릿지 연결, 시점 정합 피처 저장소(엄격한 `<` 절단·봉인 라벨·두 머신…
@@ -87,8 +89,9 @@
 
 <a id="topic-3"></a>
 
-### DevOps (29건)
+### DevOps (30건)
 
+- [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
 - [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션
 - [2026-10-27](../2026-10/2026-10-27.md) · AI 기초 수학 2장 1강~3장 3강 실습 정리(점수·확률·우도·손실 → 미분·역전파·경사하강법)와 역전파 숫자 따라가기, Stock 실주문 실험 설계 확정과…
 - [2026-10-24](../2026-10/2026-10-24.md) · Stock 주간 회고(10/19~24): 에이전트 조직 3분할, 실주문 계단식 실험·피처 저장소 v1 동결 결정, 정리 작업이 운영 가상환경을 지운 실패와 사후…
@@ -170,8 +173,9 @@
 
 <a id="topic-6"></a>
 
-### Data Engineering (12건)
+### Data Engineering (13건)
 
+- [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
 - [2026-11-05](../2026-11/2026-11-05.md) · 웹 데이터 수집 1~3장: HTML·JSON 구조, API·크롤링·페이지네이션, pandas 품질 검증·정제
 - [2026-11-03](../2026-11/2026-11-03.md) · 데이터 추출·API/JSON·웹 크롤링(정적/동적·BeautifulSoup)과 Transformer Attention 수식·Encoder 분류 실습 해설
 - [2026-09-29](../2026-09/2026-09-29.md) · 모델 선택·시계열 정상성, Stock 체결 트리거 호가 스냅샷, Career Hub intake·Markdown Intake 계획
@@ -228,6 +232,16 @@
 
 <a id="topic-10"></a>
 
+### AI (5건)
+
+- [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
+- [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션
+- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
+- [2026-08-27](../2026-08/2026-08-27.md) · Python 3.14 데이터 시각화 프레임워크, Matplotlib/Seaborn OOP 메커니즘, AI 코딩 에이전트(Cline/MCP/Ollama) 파이프라…
+- [2026-08-05](../2026-08/2026-08-05.md) · 생성형 AI·LLM, 프롬프트 구성 및 책임 있는 AI 활용
+
+<a id="topic-11"></a>
+
 ### Git (5건)
 
 - [2026-10-15](../2026-10/2026-10-15.md) · 타깃 누수와 학습·검증 경계, 피처 설계·지표 교환관계, Git fetch와 PR 협업
@@ -236,7 +250,7 @@
 - [2026-10-03](../2026-10/2026-10-03.md) · Git blob·tree·commit·브랜치의 역할, README 애니메이션과 최종 커밋 검증
 - [2026-08-06](../2026-08/2026-08-06.md) · 브랜치·병합·Rebase·충돌, uv 환경 및 주피터 연동
 
-<a id="topic-11"></a>
+<a id="topic-12"></a>
 
 ### Product Analytics (5건)
 
@@ -245,15 +259,6 @@
 - [2026-09-22](../2026-09/2026-09-22.md) · 프로덕트 분석 문제정의·퍼널/리텐션·A/B 실험 설계, Stock/Airplane 검증, career-agent 근거 기반 자동화
 - [2026-09-21](../2026-09/2026-09-21.md) · 리텐션·퍼널·A/B 실험 설계와 Ridge/Lasso 복습, product_2 과제 검토, Stock/Airplane 운영 안정화
 - [2026-09-18](../2026-09/2026-09-18.md) · 확률·통계에서 프로덕트 분석(KPI·AARRR·Funnel·A/B 표본설계)으로 전환, Airplane 우선순위 공항 20곳의 공항-관측소 매핑을 NOAA HO…
-
-<a id="topic-12"></a>
-
-### AI (4건)
-
-- [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션
-- [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
-- [2026-08-27](../2026-08/2026-08-27.md) · Python 3.14 데이터 시각화 프레임워크, Matplotlib/Seaborn OOP 메커니즘, AI 코딩 에이전트(Cline/MCP/Ollama) 파이프라…
-- [2026-08-05](../2026-08/2026-08-05.md) · 생성형 AI·LLM, 프롬프트 구성 및 책임 있는 AI 활용
 
 <a id="topic-13"></a>
 
@@ -306,33 +311,34 @@
 
 <a id="topic-19"></a>
 
+### Microstructure (2건)
+
+- [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
+- [2026-09-11](../2026-09/2026-09-11.md) · PostgreSQL 윈도우 함수 딥다이브(GROUP BY 대비 행 보존성, 순위 3종·NTILE 사분위수, 프레임 이동평균·LAG/LEAD, CBO Window…
+
+<a id="topic-20"></a>
+
 ### A-B Test (1건)
 
 - [2026-09-17](../2026-09/2026-09-17.md) · Pearson·단순회귀 $R^2$ 수리 연결, Cookie Cats A/B 랜덤화·SRM 진단과 MDE-Power 표본설계, Stock NXT venue 판정·…
 
-<a id="topic-20"></a>
+<a id="topic-21"></a>
 
 ### Collaboration (1건)
 
 - [2026-10-19](../2026-10/2026-10-19.md) · earthquake 제출 마감일의 상태 기록과 팀원 자료·README의 main 반영 (T29·팀 최종 모델은 팀원 자료 대기), stock venv .pth…
 
-<a id="topic-21"></a>
+<a id="topic-22"></a>
 
 ### Data (1건)
 
 - [2026-09-08](../2026-09/2026-09-08.md) · 100만 행 불균형 분류 6단계 진화(Threshold 0.22 튜닝·비대칭 Pseudo-Labeling 8.9만 건 증강·시간 역산 복원), K-Means 거…
 
-<a id="topic-22"></a>
+<a id="topic-23"></a>
 
 ### Infra (1건)
 
 - [2026-09-10](../2026-09/2026-09-10.md) · RDBMS CBO 옵티마이저·실행계획(EXPLAIN) 해석, B-Tree 인덱스 vs 인메모리 Hash Join 메커니즘, 다단계 JOIN 체인과 1:N 행 팽…
-
-<a id="topic-23"></a>
-
-### Microstructure (1건)
-
-- [2026-09-11](../2026-09/2026-09-11.md) · PostgreSQL 윈도우 함수 딥다이브(GROUP BY 대비 행 보존성, 순위 3종·NTILE 사분위수, 프레임 이동평균·LAG/LEAD, CBO Window…
 
 <a id="topic-24"></a>
 
