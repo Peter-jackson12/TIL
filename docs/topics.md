@@ -7,13 +7,13 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[ML (38)](#topic-1) · [Quant (31)](#topic-2) · [DevOps (30)](#topic-3) · [Stats (24)](#topic-4) · [Python (16)](#topic-5) · [Data Engineering (13)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [AI (5)](#topic-10) · [Git (5)](#topic-11) · [Product Analytics (5)](#topic-12) · [EDA (4)](#topic-13) · [Math (4)](#topic-14) · [Viz (4)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [Microstructure (2)](#topic-19) · [A-B Test (1)](#topic-20) · [Collaboration (1)](#topic-21) · [Data (1)](#topic-22) · [Infra (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
+[ML (38)](#topic-1) · [Quant (32)](#topic-2) · [DevOps (31)](#topic-3) · [Stats (24)](#topic-4) · [Python (16)](#topic-5) · [Data Engineering (13)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [AI (6)](#topic-10) · [Git (5)](#topic-11) · [Product Analytics (5)](#topic-12) · [EDA (4)](#topic-13) · [Math (4)](#topic-14) · [Viz (4)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [Microstructure (2)](#topic-19) · [A-B Test (1)](#topic-20) · [Collaboration (1)](#topic-21) · [Data (1)](#topic-22) · [Economics (1)](#topic-23) · [Infra (1)](#topic-24) · [OR (1)](#topic-25) · [Pandas (1)](#topic-26) · [Tools (1)](#topic-27)
 
 <a id="topic-1"></a>
 
 ### ML (38건)
 
-- [2026-11-24](../2026-11/2026-11-24.md) · 이미지 임베딩·ResNet18 특징 지도·거리와 정규화, 이미지 군집화 및 오류 분석
+- [2026-11-24](../2026-11/2026-11-24.md) · 이미지 임베딩·ResNet18·군집화·객체 탐지 오류 분석, AI 하네스·구독제, 경매·메커니즘 디자인·복리 비대칭
 - [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
 - [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션
 - [2026-11-11](../2026-11/2026-11-11.md) · BERTopic·Transformer 문장 임베딩, 코사인 유사도·Top-K/Temperature, K 자동 튜닝과 uv 캐시
@@ -54,8 +54,9 @@
 
 <a id="topic-2"></a>
 
-### Quant (31건)
+### Quant (32건)
 
+- [2026-11-24](../2026-11/2026-11-24.md) · 이미지 임베딩·ResNet18·군집화·객체 탐지 오류 분석, AI 하네스·구독제, 경매·메커니즘 디자인·복리 비대칭
 - [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
 - [2026-10-27](../2026-10/2026-10-27.md) · AI 기초 수학 2장 1강~3장 3강 실습 정리(점수·확률·우도·손실 → 미분·역전파·경사하강법)와 역전파 숫자 따라가기, Stock 실주문 실험 설계 확정과…
 - [2026-10-24](../2026-10/2026-10-24.md) · Stock 주간 회고(10/19~24): 에이전트 조직 3분할, 실주문 계단식 실험·피처 저장소 v1 동결 결정, 정리 작업이 운영 가상환경을 지운 실패와 사후…
@@ -90,8 +91,9 @@
 
 <a id="topic-3"></a>
 
-### DevOps (30건)
+### DevOps (31건)
 
+- [2026-11-24](../2026-11/2026-11-24.md) · 이미지 임베딩·ResNet18·군집화·객체 탐지 오류 분석, AI 하네스·구독제, 경매·메커니즘 디자인·복리 비대칭
 - [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
 - [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션
 - [2026-10-27](../2026-10/2026-10-27.md) · AI 기초 수학 2장 1강~3장 3강 실습 정리(점수·확률·우도·손실 → 미분·역전파·경사하강법)와 역전파 숫자 따라가기, Stock 실주문 실험 설계 확정과…
@@ -156,7 +158,7 @@
 
 ### Python (16건)
 
-- [2026-11-24](../2026-11/2026-11-24.md) · 이미지 임베딩·ResNet18 특징 지도·거리와 정규화, 이미지 군집화 및 오류 분석
+- [2026-11-24](../2026-11/2026-11-24.md) · 이미지 임베딩·ResNet18·군집화·객체 탐지 오류 분석, AI 하네스·구독제, 경매·메커니즘 디자인·복리 비대칭
 - [2026-11-11](../2026-11/2026-11-11.md) · BERTopic·Transformer 문장 임베딩, 코사인 유사도·Top-K/Temperature, K 자동 튜닝과 uv 캐시
 - [2026-11-10](../2026-11/2026-11-10.md) · 텍스트 전처리·TF/DF/IDF, 임베딩·코사인 유사도와 NumPy 내적·행렬곱, BERTopic·RAG
 - [2026-11-05](../2026-11/2026-11-05.md) · 웹 데이터 수집 1~3장: HTML·JSON 구조, API·크롤링·페이지네이션, pandas 품질 검증·정제
@@ -234,8 +236,9 @@
 
 <a id="topic-10"></a>
 
-### AI (5건)
+### AI (6건)
 
+- [2026-11-24](../2026-11/2026-11-24.md) · 이미지 임베딩·ResNet18·군집화·객체 탐지 오류 분석, AI 하네스·구독제, 경매·메커니즘 디자인·복리 비대칭
 - [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
 - [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션
 - [2026-10-12](../2026-10/2026-10-12.md) · Tableau 파라미터·필터 순서·액션, KPI·코호트와 집계 단위, 문서 검색·RAG와 검증 근거
@@ -338,23 +341,29 @@
 
 <a id="topic-23"></a>
 
+### Economics (1건)
+
+- [2026-11-24](../2026-11/2026-11-24.md) · 이미지 임베딩·ResNet18·군집화·객체 탐지 오류 분석, AI 하네스·구독제, 경매·메커니즘 디자인·복리 비대칭
+
+<a id="topic-24"></a>
+
 ### Infra (1건)
 
 - [2026-09-10](../2026-09/2026-09-10.md) · RDBMS CBO 옵티마이저·실행계획(EXPLAIN) 해석, B-Tree 인덱스 vs 인메모리 Hash Join 메커니즘, 다단계 JOIN 체인과 1:N 행 팽…
 
-<a id="topic-24"></a>
+<a id="topic-25"></a>
 
 ### OR (1건)
 
 - [2026-09-01](../2026-09/2026-09-01.md) · ML 파이프라인(Logistic Regression vs LightGBM), 분류 임계값(Threshold) 최적화, OR(운영연구) 기반 최적화, Cline-…
 
-<a id="topic-25"></a>
+<a id="topic-26"></a>
 
 ### Pandas (1건)
 
 - [2026-08-25](../2026-08/2026-08-25.md) · Pandas 다중 집계(`agg`/`pivot_table`), `str.split`/`rrule` 시계열 생성, Git 스냅샷 원리, EDA 이상치(IQR vs…
 
-<a id="topic-26"></a>
+<a id="topic-27"></a>
 
 ### Tools (1건)
 
