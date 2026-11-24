@@ -7,12 +7,13 @@
 날짜를 기억하지 못해도 주제로 기록을 찾을 수 있게 만든 색인입니다.
 각 기록 머리말의 단계 표기를 기준으로 정리합니다. [목차 갱신 기준](./index-format.md)
 
-[ML (37)](#topic-1) · [Quant (31)](#topic-2) · [DevOps (30)](#topic-3) · [Stats (24)](#topic-4) · [Python (15)](#topic-5) · [Data Engineering (13)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [AI (5)](#topic-10) · [Git (5)](#topic-11) · [Product Analytics (5)](#topic-12) · [EDA (4)](#topic-13) · [Math (4)](#topic-14) · [Viz (4)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [Microstructure (2)](#topic-19) · [A-B Test (1)](#topic-20) · [Collaboration (1)](#topic-21) · [Data (1)](#topic-22) · [Infra (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
+[ML (38)](#topic-1) · [Quant (31)](#topic-2) · [DevOps (30)](#topic-3) · [Stats (24)](#topic-4) · [Python (16)](#topic-5) · [Data Engineering (13)](#topic-6) · [SQL (10)](#topic-7) · [AI DevOps (9)](#topic-8) · [Algo (7)](#topic-9) · [AI (5)](#topic-10) · [Git (5)](#topic-11) · [Product Analytics (5)](#topic-12) · [EDA (4)](#topic-13) · [Math (4)](#topic-14) · [Viz (4)](#topic-15) · [OOP (3)](#topic-16) · [BI (2)](#topic-17) · [Data Eng (2)](#topic-18) · [Microstructure (2)](#topic-19) · [A-B Test (1)](#topic-20) · [Collaboration (1)](#topic-21) · [Data (1)](#topic-22) · [Infra (1)](#topic-23) · [OR (1)](#topic-24) · [Pandas (1)](#topic-25) · [Tools (1)](#topic-26)
 
 <a id="topic-1"></a>
 
-### ML (37건)
+### ML (38건)
 
+- [2026-11-24](../2026-11/2026-11-24.md) · 이미지 임베딩·ResNet18 특징 지도·거리와 정규화, 이미지 군집화 및 오류 분석
 - [2026-11-16](../2026-11/2026-11-16.md) · Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
 - [2026-11-12](../2026-11/2026-11-12.md) · 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션
 - [2026-11-11](../2026-11/2026-11-11.md) · BERTopic·Transformer 문장 임베딩, 코사인 유사도·Top-K/Temperature, K 자동 튜닝과 uv 캐시
@@ -153,8 +154,9 @@
 
 <a id="topic-5"></a>
 
-### Python (15건)
+### Python (16건)
 
+- [2026-11-24](../2026-11/2026-11-24.md) · 이미지 임베딩·ResNet18 특징 지도·거리와 정규화, 이미지 군집화 및 오류 분석
 - [2026-11-11](../2026-11/2026-11-11.md) · BERTopic·Transformer 문장 임베딩, 코사인 유사도·Top-K/Temperature, K 자동 튜닝과 uv 캐시
 - [2026-11-10](../2026-11/2026-11-10.md) · 텍스트 전처리·TF/DF/IDF, 임베딩·코사인 유사도와 NumPy 내적·행렬곱, BERTopic·RAG
 - [2026-11-05](../2026-11/2026-11-05.md) · 웹 데이터 수집 1~3장: HTML·JSON 구조, API·크롤링·페이지네이션, pandas 품질 검증·정제
