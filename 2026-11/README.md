@@ -8,7 +8,7 @@
 
 | 일 | 기록 / 단계 |
 | :---: | :--- |
-| [**24**](./2026-11-24.md) | 이미지 임베딩·ResNet18 특징 지도·거리와 정규화, 이미지 군집화 및 오류 분석<br>ML / Python |
+| [**24**](./2026-11-24.md) | 이미지 임베딩·ResNet18·군집화·객체 탐지 오류 분석, AI 하네스·구독제, 경매·메커니즘 디자인·복리 비대칭<br>ML / Python / AI / DevOps / Quant / Economics |
 | [**16**](./2026-11-16.md) | Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증<br>AI / ML / Quant / DevOps / Data Engineering / Microstructure |
 | [**12**](./2026-11-12.md) | 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션<br>AI / DevOps / ML |
 | [**11**](./2026-11-11.md) | BERTopic·Transformer 문장 임베딩, 코사인 유사도·Top-K/Temperature, K 자동 튜닝과 uv 캐시<br>Python / ML |
