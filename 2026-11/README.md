@@ -4,10 +4,11 @@
 
 [전체 목차](../README.md#learning-log) · [주제별 색인](../docs/topics.md) · [← 2026-10](../2026-10/README.md)
 
-이 달의 기록 **8건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
+이 달의 기록 **9건** · 최신 날짜부터 정리합니다. 날짜를 누르면 기록을 읽을 수 있습니다.
 
 | 일 | 기록 / 단계 |
 | :---: | :--- |
+| [**26**](./2026-11-26.md) | 피트니스 이미지 분류 프로젝트: ResNet18 전이학습·EDA·전처리·오류 분석·VLM·실험 설계와 재현성<br>ML / Python / AI / Stats / DevOps |
 | [**24**](./2026-11-24.md) | 이미지 임베딩·ResNet18·군집화·객체 탐지 오류 분석, AI 하네스·구독제, 경매·메커니즘 디자인·복리 비대칭<br>ML / Python / AI / DevOps / Quant / Economics |
 | [**16**](./2026-11-16.md) | Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증<br>AI / ML / Quant / DevOps / Data Engineering / Microstructure |
 | [**12**](./2026-11-12.md) | 토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션<br>AI / DevOps / ML |

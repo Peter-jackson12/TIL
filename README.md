@@ -21,6 +21,10 @@
 
 ## 01 / 최근 기록
 
+**[2026-11-26](./2026-11/2026-11-26.md)** · ML / Python / AI / Stats / DevOps
+
+피트니스 이미지 분류 프로젝트: ResNet18 전이학습·EDA·전처리·오류 분석·VLM·실험 설계와 재현성
+
 **[2026-11-24](./2026-11/2026-11-24.md)** · ML / Python / AI / DevOps / Quant / Economics
 
 이미지 임베딩·ResNet18·군집화·객체 탐지 오류 분석, AI 하네스·구독제, 경매·메커니즘 디자인·복리 비대칭
@@ -29,22 +33,18 @@
 
 Transformer Q/K/V·KV 캐시·MLP, CNN/OCR·DB·API, 시가 단일가와 스캘핑 전략 검증
 
-**[2026-11-12](./2026-11/2026-11-12.md)** · AI / DevOps / ML
-
-토큰화·하네스·REST/OpenAPI·네이버 MCP·Claude 크레딧/모델 비교, 활성화 함수·아핀 변환·PyTorch·콜옵션
-
 <a id="archive"></a>
 
 ## 02 / 월별 아카이브
 
 | 월 / 목차 | 기록 | 주요 단계 |
 | :--- | :---: | :--- |
-| [**2026-11 →**](./2026-11/README.md) | 8건 | ML · Python · Data Engineering · AI |
+| [**2026-11 →**](./2026-11/README.md) | 9건 | ML · Python · AI · DevOps |
 | [**2026-10 →**](./2026-10/README.md) | 23건 | ML · DevOps · Stats · Quant |
 | [**2026-09 →**](./2026-09/README.md) | 23건 | Quant · ML · DevOps · Stats |
 | [**2026-08 →**](./2026-08/README.md) | 16건 | Python · SQL · Quant · AI |
 
-**기록 70건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
+**기록 71건.** 날짜를 모를 때는 [주제별 색인](./docs/topics.md)에서 찾습니다.
 
 <!-- 목차 끝 -->
 
